@@ -22,7 +22,7 @@ export default function OHistory() {
       </div>
 
       <div className="historyorder">No orders</div>
-      <div class="navbar">
+      <div className="navbar">
         <a href="#home" class="active">
           Home
         </a>
