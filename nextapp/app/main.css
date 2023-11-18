@@ -1,0 +1,32 @@
+body {
+    background: #FFD234;
+}
+
+.welcome-div {
+    margin-top: 60%;
+    justify-content: center;
+}
+
+.welcome-text {
+    color: #1E1E1E;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Odor Mean Chey';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 48.889% */
+    letter-spacing: 3px;
+}
+
+.img {
+    margin-top: 22%;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
