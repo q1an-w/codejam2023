@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tdata, Ldata, distances, ascendingDistances} from './getList.js';
+import { Tdata, Ldata, distances, ascendingDistances, maxDistanceFilter} from './getList.js';
 
 export default function OtherPage() {
   const yellowPalette = {
@@ -112,7 +112,7 @@ export default function OtherPage() {
           </tbody>
         </table>
 
-        {/* <h2 style={{ fontSize: '30px' }}>Max Distance FIlter Ascending Distances</h2>
+        <h2 style={{ fontSize: '30px' }}>Max Distance FIlter Ascending Distances</h2>
         <table style={tableStyle}>
           <thead>
             <tr>
@@ -130,7 +130,7 @@ export default function OtherPage() {
               </tr>
             ))}
           </tbody>
-        </table> */}
+        </table>
 
       </div>
     </main>

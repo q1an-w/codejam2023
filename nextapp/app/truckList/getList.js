@@ -82,5 +82,38 @@ ascendingDistances.sort((a, b) => {
   return a.distance - b.distance;
 });
 
+const maxDistanceFilter = [];
 
-module.exports = { Tdata, Ldata, distances, ascendingDistances };  
+// Calculate distances and consider max distance of trucks
+Tdata.forEach((truck) => {
+  const truckLoads = Ldata.map((load) => {
+    const distance = calculateDistance(
+      truck.latitude,
+      truck.longitude,
+      load.latitude,
+      load.longitude
+    );
+
+    if (distance <= truck.max) { // Check if distance is within truck's max range
+      return {
+        truck: truck,
+        load: load,
+        distance: distance.toFixed(1),
+      };
+    }
+    return null; // Return null if distance exceeds max range
+  }).filter((item) => item !== null); // Filter out null entries
+
+  maxDistanceFilter.push(...truckLoads);
+});
+
+// Sort ascendingDistances based on truck ID in ascending order
+maxDistanceFilter.sort((a, b) => {
+  if (a.truck.id !== b.truck.id) {
+    return a.truck.id - b.truck.id;
+  }
+  return a.distance - b.distance;
+});
+
+
+module.exports = { Tdata, Ldata, distances, ascendingDistances, maxDistanceFilter };  
