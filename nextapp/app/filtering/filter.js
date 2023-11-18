@@ -65,6 +65,7 @@ const dataPreProcess = (topic, message) => {
   } else if (truckObject.type === "End") {
     isEnd();
   }
+  
   // Read the existing JSON file
 };
 const updateNotifications = () => {};
