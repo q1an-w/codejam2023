@@ -1,12 +1,4 @@
-'use client'
-// const { readFileSync } = require("fs");
-// const dataTrucks = readFileSync("./app/truckList/trucks.json", "utf8");
-// const parsedDataT = JSON.parse(dataTrucks);
-
-// // Extracting truck IDs
-// const Tdata = parsedDataT.map((truck) => ({
-//   id: truck.truckId,
-// }));
+"use client"
 
 import { useRouter } from 'next/navigation';
 import React from 'react';
@@ -22,11 +14,8 @@ export default function Home() {
     if (userID === 'admin') {
       router.push('/truckList');
     } 
-    // else if (Tdata.some((truck) => truck.id.toLowerCase() === userID)) {
-    //   router.push('/truckList');
-    // }
     else {
-      console.log('User is not admin or a truck');
+      router.push('/maps');
     }
   };
 

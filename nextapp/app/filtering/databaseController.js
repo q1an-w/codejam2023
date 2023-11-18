@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require('fs')
 
 const initializeDatabase = (filePath) => {
   // Check if the file exists, if not, create an empty array
@@ -7,7 +7,7 @@ const initializeDatabase = (filePath) => {
   }
 
   return filePath;
-};
+};  
 
 // Read data from the file
 const readData = (filePath) => {
