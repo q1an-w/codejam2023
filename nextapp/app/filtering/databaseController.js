@@ -83,6 +83,8 @@ const clearDatabase = (filePath) => {
 module.exports = {
   initializeDatabase,
   getAllItems,
+  writeData,
+  readData,
   getItemById,
   addItem,
   updateItem,
