@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 export default function Maps() {
   const [load, setLoad] = useState([]);
+  const [zoom, setZoom] = useState(8);
 
   const fetchData = async () => {
     try {
@@ -40,15 +41,29 @@ export default function Maps() {
         zoom: 8,
       });
 
-      // Call function to add manual markers after map is loaded
       addMontrealMarkers(map);
     };
   }, [load]);
 
   useEffect(() => {
-    // Fetch data when the component mounts
     fetchData();
-  }, []); // Empty dependency array ensures this effect runs once when the component mounts
+  }, []);
+
+  const handleZoomChange = (event) => {
+    setZoom(parseInt(event.target.value, 10));
+  };
+
+  useEffect(() => {
+    const mapElement = document.getElementById("map");
+    if (mapElement) {
+      const map = new window.google.maps.Map(mapElement, {
+        center: { lat: 45.5017, lng: -73.5673 }, // Montreal coordinates
+        zoom: zoom,
+      });
+
+      addMontrealMarkers(map);
+    }
+  }, [zoom, load]);
 
   const Palette = {
     width: "100%",
@@ -74,10 +89,18 @@ export default function Maps() {
           <div
             id="map"
             style={{
-              height: "100%", // Adjusted height to fill the available space
-              border: "4px solid black", // Adjusted border size
+              height: "100%",
+              border: "4px solid black",
             }}
           ></div>
+          <input
+            type="range"
+            min="1"
+            max="20"
+            value={zoom}
+            onChange={handleZoomChange}
+            style={{ width: "80%", margin: "20px auto", display: "block" }}
+          />
         </div>
       </div>
     </div>

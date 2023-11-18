@@ -14,9 +14,13 @@ export default function Home() {
     if (userID === 'admin') {
       router.push('/truckList');
     } 
-    else {
+    else if (Number.isInteger(Number(userID))) {
       router.push('/maps');
-    }
+    } 
+    // Add more conditions if needed
+    else {
+      console.log("error")
+    }    
   };
 
   return (
