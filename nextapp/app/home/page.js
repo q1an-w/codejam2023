@@ -2,9 +2,10 @@
 
 import { useRouter } from 'next/navigation';
 import React from 'react';
+import { Bell, User, Home, Box } from 'react-feather';
 import './style.css';
 
-export default function Home() {
+export default function Homepage() {
   const router = useRouter();
 
   const handleSubmit = (e) => {
@@ -21,6 +22,38 @@ export default function Home() {
     else {
       console.log("error")
     }    
+  };
+
+  const iconStyleLeft = {
+    position: "absolute",
+    top: "750px",
+    left: "25px",
+    zIndex: "9999",
+    fontSize: `20px`
+  };
+
+  const iconStyleSlightLeft = {
+    position: "absolute",
+    top: "750px",
+    left: "120px",
+    zIndex: "9999",
+    fontSize: `20px`
+  };
+
+  const iconStyleRight = {
+    position: "absolute",
+    top: "750px",
+    right: "30px",
+    zIndex: "9999",
+    fontSize: `100px`
+  };
+
+  const iconStyleSlightRight = {
+    position: "absolute",
+    top: "750px",
+    right: "125px",
+    zIndex: "9999",
+    fontSize: `100px`
   };
 
   return (
@@ -41,6 +74,18 @@ export default function Home() {
             <input type="submit" id="submit-button" value="Submit" />
           </div>
         </form>
+        <a href="/home">
+            <Home size={40} style={iconStyleLeft} />
+          </a>
+          <a href="/boxes">
+            <Box size={40} style={iconStyleSlightLeft} />
+          </a>
+          <a href="/notifications">
+            <Bell size={40} style={iconStyleSlightRight} />
+          </a>
+          <a href="/profile">
+            <User size={40} style={iconStyleRight} />
+          </a>
       </div>
     </main>
   );
