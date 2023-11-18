@@ -1,5 +1,12 @@
+import * as db from "../filtering/databasecontroller";
+
 const mqtt = require("mqtt");
 const fs = require("fs");
+
+const TRUCKS = "./data/trucks.json";
+const LOADS = "./data/loads.json";
+const NOTIFS = "./data/notifications.json";
+const SUGGES = "./data/suggestions.json";
 
 // Function to connect to MQTT broker
 export const connectToMQTTBroker = () => {
@@ -57,36 +64,55 @@ export const connectToMQTTBroker = () => {
 
 const dataPreProcess = (topic, message) => {
   let truckObject = JSON.parse(message.toString("utf8"));
+  const dataArraytruck = db.getAllItems(TRUCKS);
+  const dataArrayload = db.getAllItems(LOADS);
+  const isTruck = (truckObject) => {
+    dataArraytruck.push(truckObject);
+    db.writeData(TRUCKS, dataArraytruck);
+  };
+  const isLoad = (truckObject) => {
+    dataArrayload.push(truckObject);
+    db.writeData(LOADS, dataArrayload);
+  };
+  const isEnd = () => {
+    db.clearDatabase(LOADS);
+    db.clearDatabase(TRUCKS);
+    // db.clearDatabase("./data/notifications.json");
+    // db.clearDatabase("./data/suggestions.json");
+  };
 
   if (truckObject.type === "Truck") {
     isTruck(truckObject);
+    updateNotifications(dataArraytruck, dataArrayload);
   } else if (truckObject.type === "Load") {
     isLoad(truckObject);
+    updateNotifications(dataArraytruck, dataArrayload);
   } else if (truckObject.type === "End") {
     isEnd();
   }
-  
+
   // Read the existing JSON file
 };
-const updateNotifications = () => {};
+const updateNotifications = (truckarr, loadarr) => {
+  const notifArray = db.getAllItems(NOTIFS);
+  notifArray.forEach((notifItem) => {
+    if (notifItem.state === "accepted") {
+      // Remove matching items from truckarr
+      truckarr = truckarr.filter(
+        (truckItem) => truckItem.truckId !== notifItem.truckId
+      );
+      db.writeData(TRUCKS, truckarr);
 
-const decideNotifications = () => {};
+      // Remove matching items from loadarr
+      loadarr = loadarr.filter(
+        (loadItem) => loadItem.loadId !== notifItem.loadId
+      );
+      db.writeData(LOADS, loadarr);
+    }
+  });
+  decideNotifications(truckarr, loadarr);
+};
+
+const decideNotifications = (truckarr, loadarr) => {};
 
 const sendNotifs = () => {};
-
-const isTruck = (truckObject) => {
-  const jsonData = fs.readFileSync("./data/trucks.json");
-  const dataArray = JSON.parse(jsonData.toString("utf8"));
-  dataArray.push(truckObject);
-  fs.writeFileSync("./data/trucks.json", JSON.stringify(dataArray, null, 2));
-};
-const isLoad = (truckObject) => {
-  const jsonData = fs.readFileSync("./data/loads.json");
-  const dataArray = JSON.parse(jsonData.toString("utf8"));
-  dataArray.push(truckObject);
-  fs.writeFileSync("./data/loads.json", JSON.stringify(dataArray, null, 2));
-};
-const isEnd = () => {
-  fs.writeFileSync("./data/loads.json", "[]");
-  fs.writeFileSync("./data/trucks.json", "[]");
-};
