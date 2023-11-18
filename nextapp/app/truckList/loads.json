@@ -1,0 +1,15 @@
+[
+    {
+    "seq": 4,
+    "type": "Load",
+    "timestamp": "2023-11-17T11:55:11.2311956-05:00",
+    "loadId": 201,
+    "originLatitude": 41.621465,
+    "originLongitude": -83.605482,
+    "destinationLatitude": 37.639,
+    "destinationLongitude": -121.0052,
+    "equipmentType": "Van",
+    "price": 3300.0,
+    "mileage": 2334.0
+  }
+]
