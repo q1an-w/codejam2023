@@ -1,0 +1,17 @@
+[
+  {
+    "truckId": 101,
+    "loadId": 11036,
+    "state": "accepted"
+  },
+  {
+    "truckId": 134,
+    "loadId": 10849,
+    "state": "refused"
+  },
+  {
+    "truckId": 121,
+    "loadId": 10048,
+    "state": "pending"
+  }
+]
