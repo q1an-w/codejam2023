@@ -1,4 +1,9 @@
-const fs = require('fs')
+const fs = require("fs");
+
+const TRUCKS = "./data/trucks.json";
+const LOADS = "./data/loads.json";
+const NOTIFS = "./data/notifications.json";
+const SUGGES = "./data/suggestions.json";
 
 const initializeDatabase = (filePath) => {
   // Check if the file exists, if not, create an empty array
@@ -7,7 +12,7 @@ const initializeDatabase = (filePath) => {
   }
 
   return filePath;
-};  
+};
 
 // Read data from the file
 const readData = (filePath) => {
