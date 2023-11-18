@@ -1,0 +1,63 @@
+body {
+  background: #FFD234;
+}
+
+.login-div {
+  margin-top: 50%;
+  justify-content: center;
+}
+
+.login-div2 {
+  margin-top: 7%;
+  justify-content: center;
+}
+
+.login-title {
+  height: 80px;
+  flex-shrink: 0;
+  text-align: center;
+  color: #1E1E1E;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Odor Mean Chey;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 48.889% */
+  letter-spacing: 2px;
+}
+
+.login-box {
+width: 300px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF0BD;
+justify-content: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.login-submit {
+  width: 140px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #22262A;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-logo {
+  width: 131px;
+height: 33px;
+flex-shrink: 0;
+    margin-top: 22%;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
