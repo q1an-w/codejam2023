@@ -1,0 +1,2262 @@
+[
+  {
+    "seq": 15,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:12:28",
+    "truckId": 101,
+    "positionLatitude": 34.294166564941406,
+    "positionLongitude": -85.87999725341797,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 16,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:19:59",
+    "truckId": 134,
+    "positionLatitude": 39.91321563720703,
+    "positionLongitude": -86.21017456054688,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 17,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:20:41",
+    "truckId": 121,
+    "positionLatitude": 36.07754898071289,
+    "positionLongitude": -87.12014770507812,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 19,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:28:02",
+    "truckId": 106,
+    "positionLatitude": 32.50544738769531,
+    "positionLongitude": -85.60502624511719,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 20,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:29:42",
+    "truckId": 147,
+    "positionLatitude": 35.79412078857422,
+    "positionLongitude": -86.37789154052734,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 21,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:30:52",
+    "truckId": 159,
+    "positionLatitude": 33.3255615234375,
+    "positionLongitude": -87.0457534790039,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 22,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:33:01",
+    "truckId": 112,
+    "positionLatitude": 43.46783828735352,
+    "positionLongitude": -71.5811767578125,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 23,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:33:37",
+    "truckId": 155,
+    "positionLatitude": 36.712520599365234,
+    "positionLongitude": -81.9375,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 24,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:38:02",
+    "truckId": 114,
+    "positionLatitude": 37.00162124633789,
+    "positionLongitude": -84.10564422607422,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 25,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:38:02",
+    "truckId": 176,
+    "positionLatitude": 40.8126106262207,
+    "positionLongitude": -73.99231719970703,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 26,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:39:00",
+    "truckId": 144,
+    "positionLatitude": 35.27237701416016,
+    "positionLongitude": -80.84786224365234,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 27,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:41:08",
+    "truckId": 169,
+    "positionLatitude": 41.511962890625,
+    "positionLongitude": -87.74269104003906,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 29,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:42:24",
+    "truckId": 172,
+    "positionLatitude": 40.81547927856445,
+    "positionLongitude": -74.44510650634766,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 30,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:43:24",
+    "truckId": 185,
+    "positionLatitude": 39.03981018066406,
+    "positionLongitude": -84.61251068115234,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 31,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:43:24",
+    "truckId": 185,
+    "positionLatitude": 38.85344314575195,
+    "positionLongitude": -84.6650619506836,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 32,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:43:25",
+    "truckId": 185,
+    "positionLatitude": 38.24916458129883,
+    "positionLongitude": -85.6312484741211,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 33,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:43:26",
+    "truckId": 185,
+    "positionLatitude": 38.13824081420898,
+    "positionLongitude": -85.68225860595703,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 34,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:43:26",
+    "truckId": 185,
+    "positionLatitude": 38.25375747680664,
+    "positionLongitude": -85.61189270019531,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 35,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:43:26",
+    "truckId": 185,
+    "positionLatitude": 38.16388702392578,
+    "positionLongitude": -85.67897033691406,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 36,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:43:37",
+    "truckId": 141,
+    "positionLatitude": 41.07944488525391,
+    "positionLongitude": -86.89201354980469,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 37,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:44:04",
+    "truckId": 115,
+    "positionLatitude": 43.16802978515625,
+    "positionLongitude": -80.28224182128906,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 39,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:46:07",
+    "truckId": 192,
+    "positionLatitude": 34.79556655883789,
+    "positionLongitude": -80.4051284790039,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 40,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:46:53",
+    "truckId": 152,
+    "positionLatitude": 41.350582122802734,
+    "positionLongitude": -87.20035552978516,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 42,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:50:01",
+    "truckId": 201,
+    "positionLatitude": 40.79142379760742,
+    "positionLongitude": -74.45803833007812,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 43,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:50:11",
+    "truckId": 189,
+    "positionLatitude": 36.40932846069336,
+    "positionLongitude": -84.3056869506836,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 44,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:51:14",
+    "truckId": 137,
+    "positionLatitude": 40.63347625732422,
+    "positionLongitude": -74.23700714111328,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 45,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:51:16",
+    "truckId": 174,
+    "positionLatitude": 42.97785568237305,
+    "positionLongitude": -77.22093963623047,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 46,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:53:26",
+    "truckId": 186,
+    "positionLatitude": 41.13305282592773,
+    "positionLongitude": -80.15388488769531,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 47,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:54:06",
+    "truckId": 115,
+    "positionLatitude": 43.13368606567383,
+    "positionLongitude": -80.51978302001953,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 48,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:54:34",
+    "truckId": 191,
+    "positionLatitude": 42.115020751953125,
+    "positionLongitude": -83.3776626586914,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 49,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:54:34",
+    "truckId": 132,
+    "positionLatitude": 33.85292434692383,
+    "positionLongitude": -84.24625396728516,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 50,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:54:58",
+    "truckId": 201,
+    "positionLatitude": 40.763450622558594,
+    "positionLongitude": -74.50614929199219,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 56,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:56:37",
+    "truckId": 194,
+    "positionLatitude": 40.37152862548828,
+    "positionLongitude": -76.68165588378906,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 57,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:56:53",
+    "truckId": 111,
+    "positionLatitude": 41.82238006591797,
+    "positionLongitude": -72.72283172607422,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 58,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:57:39",
+    "truckId": 182,
+    "positionLatitude": 42.212677001953125,
+    "positionLongitude": -83.68504333496094,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 59,
+    "type": "Truck",
+    "timestamp": "2023-11-17T08:59:07",
+    "truckId": 115,
+    "positionLatitude": 43.12996673583984,
+    "positionLongitude": -80.62301635742188,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 60,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:01:25",
+    "truckId": 154,
+    "positionLatitude": 40.99319076538086,
+    "positionLongitude": -82.60523986816406,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 61,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:05:06",
+    "truckId": 145,
+    "positionLatitude": 35.80476760864258,
+    "positionLongitude": -80.18846130371094,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 62,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:05:13",
+    "truckId": 189,
+    "positionLatitude": 36.41474533081055,
+    "positionLongitude": -84.51128387451172,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 63,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:05:25",
+    "truckId": 180,
+    "positionLatitude": 45.61162185668945,
+    "positionLongitude": -73.08822631835938,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 64,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:05:53",
+    "truckId": 106,
+    "positionLatitude": 32.53272247314453,
+    "positionLongitude": -85.56966400146484,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 65,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:05:54",
+    "truckId": 230,
+    "positionLatitude": 39.95553588867188,
+    "positionLongitude": -83.3736801147461,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 66,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:07:10",
+    "truckId": 205,
+    "positionLatitude": 39.90524673461914,
+    "positionLongitude": -86.04354095458984,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 69,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:08:42",
+    "truckId": 130,
+    "positionLatitude": 41.40014266967773,
+    "positionLongitude": -75.70187377929688,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 70,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:09:09",
+    "truckId": 115,
+    "positionLatitude": 43.0576400756836,
+    "positionLongitude": -80.81227111816406,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 71,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:10:28",
+    "truckId": 174,
+    "positionLatitude": 43.0204963684082,
+    "positionLongitude": -77.4926528930664,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 72,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:11:43",
+    "truckId": 144,
+    "positionLatitude": 35.33171463012695,
+    "positionLongitude": -80.84928131103516,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 75,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:12:41",
+    "truckId": 223,
+    "positionLatitude": 34.738521575927734,
+    "positionLongitude": -82.71920013427734,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 76,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:13:18",
+    "truckId": 200,
+    "positionLatitude": 40.368125915527344,
+    "positionLongitude": -76.18385314941406,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 77,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:13:24",
+    "truckId": 157,
+    "positionLatitude": 39.81191635131836,
+    "positionLongitude": -86.17557525634766,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 78,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:13:29",
+    "truckId": 209,
+    "positionLatitude": 34.16739273071289,
+    "positionLongitude": -86.1478271484375,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 79,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:13:49",
+    "truckId": 127,
+    "positionLatitude": 32.30772018432617,
+    "positionLongitude": -80.93501281738281,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 84,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:17:22",
+    "truckId": 153,
+    "positionLatitude": 38.49227142333984,
+    "positionLongitude": -77.38634490966797,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 86,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:17:38",
+    "truckId": 173,
+    "positionLatitude": 41.24836730957031,
+    "positionLongitude": -81.29432678222656,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 87,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:18:11",
+    "truckId": 247,
+    "positionLatitude": 40.73190307617188,
+    "positionLongitude": -79.84938049316406,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 88,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:18:28",
+    "truckId": 209,
+    "positionLatitude": 34.211517333984375,
+    "positionLongitude": -86.1688003540039,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 89,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:18:40",
+    "truckId": 141,
+    "positionLatitude": 40.54449462890625,
+    "positionLongitude": -86.86930847167969,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 92,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:20:32",
+    "truckId": 224,
+    "positionLatitude": 34.82884216308594,
+    "positionLongitude": -82.30500030517578,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 93,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:20:53",
+    "truckId": 164,
+    "positionLatitude": 41.70818710327149,
+    "positionLongitude": -87.79500579833984,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 94,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:21:34",
+    "truckId": 251,
+    "positionLatitude": 41.754150390625,
+    "positionLongitude": -72.68269348144531,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 95,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:21:39",
+    "truckId": 245,
+    "positionLatitude": 41.6019401550293,
+    "positionLongitude": -81.50347137451172,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 96,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:22:11",
+    "truckId": 191,
+    "positionLatitude": 42.36505126953125,
+    "positionLongitude": -83.44522094726562,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 97,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:22:16",
+    "truckId": 211,
+    "positionLatitude": 39.879127502441406,
+    "positionLongitude": -83.96053314208984,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 101,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:23:05",
+    "truckId": 246,
+    "positionLatitude": 42.22358322143555,
+    "positionLongitude": -83.37861633300781,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 102,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:23:07",
+    "truckId": 116,
+    "positionLatitude": 38.04500579833984,
+    "positionLongitude": -84.67056274414062,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 103,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:23:40",
+    "truckId": 141,
+    "positionLatitude": 40.49615478515625,
+    "positionLongitude": -86.86848449707031,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 104,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:24:18",
+    "truckId": 259,
+    "positionLatitude": 36.0174674987793,
+    "positionLongitude": -78.88998413085938,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 105,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:24:18",
+    "truckId": 259,
+    "positionLatitude": 36.17631149291992,
+    "positionLongitude": -78.70093536376953,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 106,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:24:19",
+    "truckId": 259,
+    "positionLatitude": 36.44058227539063,
+    "positionLongitude": -78.72024536132812,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 107,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:24:19",
+    "truckId": 259,
+    "positionLatitude": 36.408668518066406,
+    "positionLongitude": -78.32518005371094,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 109,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:25:25",
+    "truckId": 105,
+    "positionLatitude": 40.590091705322266,
+    "positionLongitude": -79.94837188720703,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 110,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:26:17",
+    "truckId": 266,
+    "positionLatitude": 41.425479888916016,
+    "positionLongitude": -81.83773040771484,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 111,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:26:27",
+    "truckId": 268,
+    "positionLatitude": 41.67794418334961,
+    "positionLongitude": -83.59407806396484,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 112,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:27:06",
+    "truckId": 126,
+    "positionLatitude": 34.22414779663086,
+    "positionLongitude": -83.51158905029297,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 113,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:27:12",
+    "truckId": 121,
+    "positionLatitude": 35.78899383544922,
+    "positionLongitude": -87.16542053222656,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 114,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:27:45",
+    "truckId": 182,
+    "positionLatitude": 42.5786361694336,
+    "positionLongitude": -83.88922882080078,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 115,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:28:20",
+    "truckId": 200,
+    "positionLatitude": 40.32666778564453,
+    "positionLongitude": -76.04034423828125,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 116,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:28:22",
+    "truckId": 236,
+    "positionLatitude": 34.77556610107422,
+    "positionLongitude": -82.30685424804688,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 117,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:28:34",
+    "truckId": 124,
+    "positionLatitude": 39.29179000854492,
+    "positionLongitude": -84.44843292236328,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 118,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:30:02",
+    "truckId": 228,
+    "positionLatitude": 33.97989273071289,
+    "positionLongitude": -79.19269561767578,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 120,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:31:04",
+    "truckId": 240,
+    "positionLatitude": 33.56230926513672,
+    "positionLongitude": -86.83136749267578,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 121,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:31:20",
+    "truckId": 267,
+    "positionLatitude": 40.62468338012695,
+    "positionLongitude": -75.44249725341797,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 124,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:31:51",
+    "truckId": 158,
+    "positionLatitude": 40.38103866577149,
+    "positionLongitude": -78.8475341796875,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 125,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:31:51",
+    "truckId": 158,
+    "positionLatitude": 40.379337310791016,
+    "positionLongitude": -78.83139038085938,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 129,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:31:58",
+    "truckId": 129,
+    "positionLatitude": 32.45702362060547,
+    "positionLongitude": -82.77043914794922,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 133,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:32:13",
+    "truckId": 121,
+    "positionLatitude": 35.73127746582031,
+    "positionLongitude": -87.13800811767578,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 135,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:32:44",
+    "truckId": 110,
+    "positionLatitude": 39.02131271362305,
+    "positionLongitude": -76.94416809082031,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 136,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:32:58",
+    "truckId": 174,
+    "positionLatitude": 43.02495193481445,
+    "positionLongitude": -78.11530303955078,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 137,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:33:23",
+    "truckId": 236,
+    "positionLatitude": 34.77286911010742,
+    "positionLongitude": -82.29795837402344,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 140,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:34:46",
+    "truckId": 147,
+    "positionLatitude": 36.135292053222656,
+    "positionLongitude": -86.72672271728516,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 141,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:34:47",
+    "truckId": 216,
+    "positionLatitude": 35.46439743041992,
+    "positionLongitude": -81.00334167480469,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 142,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:35:10",
+    "truckId": 105,
+    "positionLatitude": 40.65785598754883,
+    "positionLongitude": -79.93453216552734,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 143,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:35:30",
+    "truckId": 180,
+    "positionLatitude": 45.466835021972656,
+    "positionLongitude": -73.49089813232422,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 144,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:37:46",
+    "truckId": 198,
+    "positionLatitude": 39.6221809387207,
+    "positionLongitude": -77.71875,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 147,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:38:52",
+    "truckId": 178,
+    "positionLatitude": 35.56631851196289,
+    "positionLongitude": -77.40385437011719,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 148,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:38:53",
+    "truckId": 271,
+    "positionLatitude": 43.68624877929688,
+    "positionLongitude": -70.32768249511719,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 149,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:39:15",
+    "truckId": 274,
+    "positionLatitude": 43.06207656860352,
+    "positionLongitude": -71.4442367553711,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 151,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:41:01",
+    "truckId": 143,
+    "positionLatitude": 39.13606262207031,
+    "positionLongitude": -76.79450225830078,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 152,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:41:35",
+    "truckId": 281,
+    "positionLatitude": 41.067176818847656,
+    "positionLongitude": -85.0190200805664,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 153,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:41:56",
+    "truckId": 204,
+    "positionLatitude": 39.05494689941406,
+    "positionLongitude": -84.54402923583984,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 154,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:42:24",
+    "truckId": 233,
+    "positionLatitude": 39.892555236816406,
+    "positionLongitude": -82.90800476074219,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 155,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:42:43",
+    "truckId": 142,
+    "positionLatitude": 32.91962814331055,
+    "positionLongitude": -83.79886627197266,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 158,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:43:10",
+    "truckId": 110,
+    "positionLatitude": 39.01988220214844,
+    "positionLongitude": -76.984130859375,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 159,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:43:34",
+    "truckId": 251,
+    "positionLatitude": 41.7541389465332,
+    "positionLongitude": -72.68277740478516,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 160,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:44:24",
+    "truckId": 191,
+    "positionLatitude": 42.42009353637695,
+    "positionLongitude": -83.58165740966797,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 161,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:44:37",
+    "truckId": 275,
+    "positionLatitude": 41.14920425415039,
+    "positionLongitude": -78.85579681396484,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 162,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:44:37",
+    "truckId": 275,
+    "positionLatitude": 41.17023086547852,
+    "positionLongitude": -79.01506042480469,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 163,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:44:41",
+    "truckId": 107,
+    "positionLatitude": 35.26820373535156,
+    "positionLongitude": -80.87187957763672,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 165,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:45:40",
+    "truckId": 125,
+    "positionLatitude": 39.01648712158203,
+    "positionLongitude": -76.99766540527344,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 168,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:48:04",
+    "truckId": 301,
+    "positionLatitude": 38.65193176269531,
+    "positionLongitude": -76.87329864501953,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 169,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:48:10",
+    "truckId": 114,
+    "positionLatitude": 38.09189224243164,
+    "positionLongitude": -84.4704818725586,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 170,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:48:42",
+    "truckId": 141,
+    "positionLatitude": 40.119415283203125,
+    "positionLongitude": -86.51583862304688,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 172,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:49:09",
+    "truckId": 191,
+    "positionLatitude": 42.43302536010742,
+    "positionLongitude": -83.6133041381836,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 173,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:49:20",
+    "truckId": 259,
+    "positionLatitude": 36.7369270324707,
+    "positionLongitude": -78.10095977783203,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 174,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:49:21",
+    "truckId": 246,
+    "positionLatitude": 42.223392486572266,
+    "positionLongitude": -83.38546752929688,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 175,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:49:27",
+    "truckId": 148,
+    "positionLatitude": 38.74151611328125,
+    "positionLongitude": -85.81885528564453,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 176,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:49:34",
+    "truckId": 232,
+    "positionLatitude": 33.02981185913086,
+    "positionLongitude": -84.79163360595703,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 177,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:49:51",
+    "truckId": 220,
+    "positionLatitude": 39.27094268798828,
+    "positionLongitude": -76.67911529541016,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 178,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:50:20",
+    "truckId": 105,
+    "positionLatitude": 40.80125427246094,
+    "positionLongitude": -79.92877960205078,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 179,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:51:58",
+    "truckId": 254,
+    "positionLatitude": 37.30511474609375,
+    "positionLongitude": -79.28193664550781,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 180,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:52:19",
+    "truckId": 279,
+    "positionLatitude": 33.73810958862305,
+    "positionLongitude": -80.93639373779297,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 181,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:53:05",
+    "truckId": 301,
+    "positionLatitude": 38.65402221679688,
+    "positionLongitude": -76.86634826660156,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 182,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:53:55",
+    "truckId": 271,
+    "positionLatitude": 43.700870513916016,
+    "positionLongitude": -70.32174682617188,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 183,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:54:14",
+    "truckId": 115,
+    "positionLatitude": 42.61559677124024,
+    "positionLongitude": -81.62698364257812,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 184,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:54:14",
+    "truckId": 103,
+    "positionLatitude": 35.89788818359375,
+    "positionLongitude": -81.55409240722656,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 187,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:57:26",
+    "truckId": 281,
+    "positionLatitude": 41.15059661865234,
+    "positionLongitude": -84.82076263427734,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 194,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:58:18",
+    "truckId": 111,
+    "positionLatitude": 41.942909240722656,
+    "positionLongitude": -72.6033935546875,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 195,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:58:55",
+    "truckId": 271,
+    "positionLatitude": 43.7038688659668,
+    "positionLongitude": -70.31690979003906,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 198,
+    "type": "Truck",
+    "timestamp": "2023-11-17T09:59:59",
+    "truckId": 217,
+    "positionLatitude": 43.09141540527344,
+    "positionLongitude": -75.90450286865234,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 204,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:04:41",
+    "truckId": 183,
+    "positionLatitude": 40.81435394287109,
+    "positionLongitude": -74.05506896972656,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 205,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:04:47",
+    "truckId": 327,
+    "positionLatitude": 33.368412017822266,
+    "positionLongitude": -82.10224151611328,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 206,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:05:02",
+    "truckId": 174,
+    "positionLatitude": 42.94967651367188,
+    "positionLongitude": -78.7609634399414,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 207,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:05:24",
+    "truckId": 276,
+    "positionLatitude": 39.43231201171875,
+    "positionLongitude": -84.34030151367188,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 209,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:06:24",
+    "truckId": 323,
+    "positionLatitude": 37.31249237060547,
+    "positionLongitude": -84.29149627685547,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 211,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:07:38",
+    "truckId": 127,
+    "positionLatitude": 32.1463737487793,
+    "positionLongitude": -81.16011810302734,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 212,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:07:40",
+    "truckId": 223,
+    "positionLatitude": 35.16937255859375,
+    "positionLongitude": -82.46672821044922,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 213,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:07:42",
+    "truckId": 299,
+    "positionLatitude": 43.15374755859375,
+    "positionLongitude": -83.76405334472656,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 214,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:08:02",
+    "truckId": 281,
+    "positionLatitude": 41.21119689941406,
+    "positionLongitude": -84.60957336425781,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 221,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:11:11",
+    "truckId": 132,
+    "positionLatitude": 33.82749938964844,
+    "positionLongitude": -84.34489440917969,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 222,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:11:20",
+    "truckId": 280,
+    "positionLatitude": 39.91702651977539,
+    "positionLongitude": -82.90806579589844,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 224,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:12:38",
+    "truckId": 127,
+    "positionLatitude": 32.12553787231445,
+    "positionLongitude": -81.16078186035156,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 226,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:12:39",
+    "truckId": 167,
+    "positionLatitude": 35.27020263671875,
+    "positionLongitude": -80.86270904541016,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 228,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:13:02",
+    "truckId": 277,
+    "positionLatitude": 33.447166442871094,
+    "positionLongitude": -80.71678161621094,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 229,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:13:06",
+    "truckId": 149,
+    "positionLatitude": 41.322547912597656,
+    "positionLongitude": -72.32147216796875,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 230,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:13:14",
+    "truckId": 163,
+    "positionLatitude": 39.34594345092773,
+    "positionLongitude": -84.61109161376953,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 232,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:13:55",
+    "truckId": 249,
+    "positionLatitude": 40.558555603027344,
+    "positionLongitude": -75.4432373046875,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 233,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:13:55",
+    "truckId": 123,
+    "positionLatitude": 43.554779052734375,
+    "positionLongitude": -79.84782409667969,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 234,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:14:35",
+    "truckId": 160,
+    "positionLatitude": 41.00519943237305,
+    "positionLongitude": -76.14249420166016,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 235,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:14:46",
+    "truckId": 295,
+    "positionLatitude": 42.11321258544922,
+    "positionLongitude": -83.24136352539062,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 236,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:15:20",
+    "truckId": 278,
+    "positionLatitude": 41.51944732666016,
+    "positionLongitude": -74.02368927001953,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 237,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:15:40",
+    "truckId": 241,
+    "positionLatitude": 34.76015090942383,
+    "positionLongitude": -82.46800231933594,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 239,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:15:59",
+    "truckId": 214,
+    "positionLatitude": 40.267051696777344,
+    "positionLongitude": -83.48197174072266,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 242,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:18:13",
+    "truckId": 114,
+    "positionLatitude": 38.55908203125,
+    "positionLongitude": -84.59571075439453,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 244,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:18:26",
+    "truckId": 200,
+    "positionLatitude": 40.1862907409668,
+    "positionLongitude": -75.51839447021484,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 245,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:18:35",
+    "truckId": 238,
+    "positionLatitude": 40.23378753662109,
+    "positionLongitude": -74.52613067626953,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 246,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:18:53",
+    "truckId": 111,
+    "positionLatitude": 41.77116775512695,
+    "positionLongitude": -72.69718170166016,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 247,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:18:55",
+    "truckId": 224,
+    "positionLatitude": 35.16617965698242,
+    "positionLongitude": -81.450927734375,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 248,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:19:04",
+    "truckId": 331,
+    "positionLatitude": 36.07738494873047,
+    "positionLongitude": -83.82634735107422,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 249,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:19:43",
+    "truckId": 289,
+    "positionLatitude": 34.725093841552734,
+    "positionLongitude": -81.18914794921875,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 251,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:20:46",
+    "truckId": 241,
+    "positionLatitude": 34.7974739074707,
+    "positionLongitude": -82.37775421142578,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 253,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:22:03",
+    "truckId": 254,
+    "positionLatitude": 37.372955322265625,
+    "positionLongitude": -79.24019622802734,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 256,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:22:24",
+    "truckId": 135,
+    "positionLatitude": 40.72189712524414,
+    "positionLongitude": -74.05476379394531,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 257,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:23:21",
+    "truckId": 332,
+    "positionLatitude": 32.29679870605469,
+    "positionLongitude": -81.06324005126953,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 258,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:23:26",
+    "truckId": 302,
+    "positionLatitude": 35.83774185180664,
+    "positionLongitude": -78.67313385009766,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 260,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:24:25",
+    "truckId": 260,
+    "positionLatitude": 38.75155258178711,
+    "positionLongitude": -77.74778747558594,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 261,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:24:28",
+    "truckId": 220,
+    "positionLatitude": 39.27919769287109,
+    "positionLongitude": -76.65088653564453,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 262,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:25:28",
+    "truckId": 341,
+    "positionLatitude": 36.75966644287109,
+    "positionLongitude": -81.84998321533203,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 266,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:25:49",
+    "truckId": 125,
+    "positionLatitude": 38.92448043823242,
+    "positionLongitude": -77.21251678466797,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 267,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:26:25",
+    "truckId": 341,
+    "positionLatitude": 36.76145553588867,
+    "positionLongitude": -81.82671356201172,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 268,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:27:05",
+    "truckId": 120,
+    "positionLatitude": 40.02384185791016,
+    "positionLongitude": -77.52092742919922,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 269,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:27:10",
+    "truckId": 120,
+    "positionLatitude": 40.03101348876953,
+    "positionLongitude": -77.49430847167969,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 271,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:27:24",
+    "truckId": 206,
+    "positionLatitude": 40.27182388305664,
+    "positionLongitude": -76.87708282470703,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 272,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:27:32",
+    "truckId": 326,
+    "positionLatitude": 35.33610916137695,
+    "positionLongitude": -80.8488540649414,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 273,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:27:48",
+    "truckId": 142,
+    "positionLatitude": 33.47904968261719,
+    "positionLongitude": -84.21622467041016,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 274,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:28:08",
+    "truckId": 232,
+    "positionLatitude": 33.01163482666016,
+    "positionLongitude": -84.46658325195312,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 276,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:28:48",
+    "truckId": 139,
+    "positionLatitude": 32.79957962036133,
+    "positionLongitude": -79.94390869140625,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 277,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:29:05",
+    "truckId": 336,
+    "positionLatitude": 37.520164489746094,
+    "positionLongitude": -77.43669128417969,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 280,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:30:27",
+    "truckId": 341,
+    "positionLatitude": 36.77856063842773,
+    "positionLongitude": -81.75667572021484,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 282,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:30:58",
+    "truckId": 342,
+    "positionLatitude": 41.8230094909668,
+    "positionLongitude": -72.60838317871094,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 283,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:31:23",
+    "truckId": 179,
+    "positionLatitude": 33.67706298828125,
+    "positionLongitude": -84.3189468383789,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 284,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:31:23",
+    "truckId": 179,
+    "positionLatitude": 33.71178436279297,
+    "positionLongitude": -84.2430419921875,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 287,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:33:15",
+    "truckId": 278,
+    "positionLatitude": 41.54671478271485,
+    "positionLongitude": -73.72400665283203,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 288,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:33:59",
+    "truckId": 197,
+    "positionLatitude": 40.655067443847656,
+    "positionLongitude": -75.23925018310547,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 290,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:34:53",
+    "truckId": 351,
+    "positionLatitude": 37.98053741455078,
+    "positionLongitude": -87.4502944946289,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 291,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:36:07",
+    "truckId": 300,
+    "positionLatitude": 42.77431488037109,
+    "positionLongitude": -76.62361907958984,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 292,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:36:44",
+    "truckId": 324,
+    "positionLatitude": 38.66231155395508,
+    "positionLongitude": -77.79682922363281,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 294,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:37:34",
+    "truckId": 326,
+    "positionLatitude": 35.20508575439453,
+    "positionLongitude": -80.87879180908203,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 295,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:38:07",
+    "truckId": 336,
+    "positionLatitude": 37.58588409423828,
+    "positionLongitude": -77.46989440917969,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 297,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:38:30",
+    "truckId": 200,
+    "positionLatitude": 40.03987503051758,
+    "positionLongitude": -75.35231018066406,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 299,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:39:07",
+    "truckId": 176,
+    "positionLatitude": 41.26673889160156,
+    "positionLongitude": -73.69609069824219,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 300,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:39:26",
+    "truckId": 260,
+    "positionLatitude": 38.80019378662109,
+    "positionLongitude": -77.53486633300781,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 301,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:39:50",
+    "truckId": 230,
+    "positionLatitude": 39.97484970092773,
+    "positionLongitude": -83.26959228515625,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 302,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:40:03",
+    "truckId": 217,
+    "positionLatitude": 43.03320693969727,
+    "positionLongitude": -75.04613494873047,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 304,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:40:16",
+    "truckId": 250,
+    "positionLatitude": 39.68329620361328,
+    "positionLongitude": -76.07559204101562,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 306,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:41:11",
+    "truckId": 333,
+    "positionLatitude": 34.38313674926758,
+    "positionLongitude": -80.99479675292969,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 307,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:41:12",
+    "truckId": 169,
+    "positionLatitude": 41.44123458862305,
+    "positionLongitude": -87.71479034423828,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 308,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:41:56",
+    "truckId": 102,
+    "positionLatitude": 33.93944549560547,
+    "positionLongitude": -84.36800384521484,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 309,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:42:04",
+    "truckId": 203,
+    "positionLatitude": 46.713077545166016,
+    "positionLongitude": -67.8364486694336,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 311,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:42:27",
+    "truckId": 130,
+    "positionLatitude": 41.35932540893555,
+    "positionLongitude": -75.70471954345703,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 312,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:42:34",
+    "truckId": 129,
+    "positionLatitude": 32.064208984375,
+    "positionLongitude": -83.64605712890625,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 313,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:42:39",
+    "truckId": 215,
+    "positionLatitude": 37.765323638916016,
+    "positionLongitude": -87.1033935546875,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 316,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:43:22",
+    "truckId": 332,
+    "positionLatitude": 32.59942626953125,
+    "positionLongitude": -80.9033432006836,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 317,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:43:32",
+    "truckId": 211,
+    "positionLatitude": 39.88834762573242,
+    "positionLongitude": -84.3888931274414,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 318,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:43:33",
+    "truckId": 306,
+    "positionLatitude": 44.53678131103516,
+    "positionLongitude": -69.68551635742188,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 321,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:45:14",
+    "truckId": 112,
+    "positionLatitude": 43.690460205078125,
+    "positionLongitude": -71.45855712890625,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 322,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:45:15",
+    "truckId": 321,
+    "positionLatitude": 40.37662887573242,
+    "positionLongitude": -75.94091033935547,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 323,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:45:16",
+    "truckId": 250,
+    "positionLatitude": 39.63232421875,
+    "positionLongitude": -76.07891082763672,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 325,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:45:48",
+    "truckId": 300,
+    "positionLatitude": 42.80680465698242,
+    "positionLongitude": -76.6318359375,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 326,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:46:48",
+    "truckId": 348,
+    "positionLatitude": 34.36281967163086,
+    "positionLongitude": -83.2936019897461,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 327,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:46:51",
+    "truckId": 362,
+    "positionLatitude": 38.7039909362793,
+    "positionLongitude": -84.91071319580078,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 328,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:47:22",
+    "truckId": 357,
+    "positionLatitude": 39.21757125854492,
+    "positionLongitude": -76.47254180908203,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 330,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:47:40",
+    "truckId": 303,
+    "positionLatitude": 41.27096557617188,
+    "positionLongitude": -75.51779174804688,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 331,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:49:23",
+    "truckId": 364,
+    "positionLatitude": 42.46390914916992,
+    "positionLongitude": -72.61790466308594,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 332,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:50:05",
+    "truckId": 188,
+    "positionLatitude": 41.9170150756836,
+    "positionLongitude": -80.57324981689453,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 334,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:50:12",
+    "truckId": 212,
+    "positionLatitude": 35.58064270019531,
+    "positionLongitude": -81.25885009765625,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 335,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:50:50",
+    "truckId": 278,
+    "positionLatitude": 41.38382339477539,
+    "positionLongitude": -73.5676040649414,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 336,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:50:52",
+    "truckId": 327,
+    "positionLatitude": 33.37567138671875,
+    "positionLongitude": -82.03710174560547,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 337,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:51:07",
+    "truckId": 125,
+    "positionLatitude": 38.79947280883789,
+    "positionLongitude": -77.53189849853516,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 338,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:51:20",
+    "truckId": 362,
+    "positionLatitude": 38.73433303833008,
+    "positionLongitude": -84.8403091430664,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 346,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:52:06",
+    "truckId": 300,
+    "positionLatitude": 42.74512481689453,
+    "positionLongitude": -76.61773681640625,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 347,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:52:44",
+    "truckId": 328,
+    "positionLatitude": 42.89832305908203,
+    "positionLongitude": -78.6629867553711,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 348,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:53:18",
+    "truckId": 163,
+    "positionLatitude": 39.0584716796875,
+    "positionLongitude": -84.46965026855469,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 349,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:53:26",
+    "truckId": 370,
+    "positionLatitude": 40.66063690185547,
+    "positionLongitude": -75.32862854003906,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 350,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:53:30",
+    "truckId": 234,
+    "positionLatitude": 42.991966247558594,
+    "positionLongitude": -81.78184509277344,
+    "equipType": "Flatbed",
+    "nextTripLengthPreference": "Short"
+  },
+  {
+    "seq": 351,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:53:33",
+    "truckId": 200,
+    "positionLatitude": 39.85848617553711,
+    "positionLongitude": -75.35737609863281,
+    "equipType": "Van",
+    "nextTripLengthPreference": "Long"
+  },
+  {
+    "seq": 352,
+    "type": "Truck",
+    "timestamp": "2023-11-17T10:53:49",
+    "truckId": 107,
+    "positionLatitude": 35.25031661987305,
+    "positionLongitude": -80.84447479248047,
+    "equipType": "Reefer",
+    "nextTripLengthPreference": "Short"
+  }
+]
