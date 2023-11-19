@@ -1,9 +1,8 @@
 "use client"
 
-
-import { useRouter } from "next/navigation";
-import React from "react";
-import "./style.css";
+import { useRouter } from 'next/navigation';
+import React from 'react';
+import './style.css';
 
 export default function Home() {
   const router = useRouter();
@@ -12,13 +11,11 @@ export default function Home() {
     e.preventDefault();
     const userID = e.target.userID.value.trim().toLowerCase(); // Access the userID from the form
 
-
     if (userID === 'admin') {
       router.push('/truckList');
     } 
     else {
       router.push('/maps');
-
     }
   };
 
