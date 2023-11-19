@@ -1,9 +1,48 @@
 import React from "react";
 import "../../main.css";
-import "./style.css";
 import whitelogo from "../../imgs/logo white background.png";
+import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
 import pfp from "./mikesanders.png";
+// const Orders = () => {
+//   return <div>Orders</div>;
+// };
+
+// export default Orders;
+
+const iconStyleLeft = {
+  color: "#333",
+  position: "absolute",
+  top: "5px",
+  left: "25px",
+  zIndex: "9999",
+};
+
+const iconStyleSlightLeft = {
+  color: "#333",
+  position: "absolute",
+  top: "5px",
+  left: "115px",
+  zIndex: "9999",
+};
+
+const iconStyleRight = {
+  color: "#333",
+  position: "absolute",
+  top: "5px",
+  right: "68px",
+  zIndex: "9999",
+};
+
+const iconStyleSlightRight = {
+  color: "#333",
+  position: "absolute",
+  top: "5px",
+  right: "155px",
+  zIndex: "9999",
+};
+
+
 
 export default function Profile() {
   const name = "Mike Sanders"; // change to fetch user full name
@@ -65,6 +104,18 @@ export default function Profile() {
         </a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
+        <a href="/maps">
+          <Home size={60} style={iconStyleLeft} />
+        </a>
+        <a href="/pages/orders">
+          <Box size={60} style={iconStyleSlightLeft} />
+        </a>
+        <a href="/pages/notifications">
+          <Bell size={60} style={iconStyleSlightRight} />
+        </a>
+        <a href="/pages/profile">
+          <User size={60} style={iconStyleRight} />
+        </a>
       </div>
     </main>
   );

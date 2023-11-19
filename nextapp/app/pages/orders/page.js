@@ -1,16 +1,48 @@
+"use client";
 import React from "react";
 import "../../main.css";
+import "../../secondbody.css";
 import whitelogo from "../../imgs/logo white background.png";
+import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
-// const Orders = () => {
-//   return <div>Orders</div>;
-// };
+import Notifications from "../notifications/page";
 
-// export default Orders;
+const iconStyleLeft = {
+  color: "#3F3F3F",
+  position: "absolute",
+  top: "5%",
+  left: "10%",
+  zIndex: "9999",
+};
+
+const iconStyleSlightLeft = {
+  color: "#3F3F3F",
+  position: "absolute",
+  top: "5%",
+  left: "31%",
+  zIndex: "9999",
+};
+
+const iconStyleRight = {
+  color: "#3F3F3F",
+  position: "absolute",
+  top: "5%",
+  right: "17%",
+  zIndex: "9999",
+};
+
+const iconStyleSlightRight = {
+  color: "#000000",
+  position: "absolute",
+  top: "5%",
+  right: "55%",
+  left: "50%",
+  zIndex: "9999",
+};
 
 export default function OHistory() {
   return (
-    <main id="2p">
+    <main>
       <link
         href="https://fonts.googleapis.com/css?family=Odor Mean Chey"
         rel="stylesheet"
@@ -22,12 +54,26 @@ export default function OHistory() {
       </div>
 
       <div className="historyorder">No orders</div>
-      <div class="navbar">
-        <a href="#home" class="active">
-          Home
+      <div className="navbar">
+        <a href="/home" style={iconStyleLeft} className="dev-noicon">
+          <Home size={45} style={iconStyleLeft} />
         </a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
+        <a href="/boxes" style={iconStyleSlightLeft} className="dev-noicon">
+          <Box size={45} style={iconStyleSlightLeft} />
+        </a>
+
+        <a
+          href="/notification"
+          style={iconStyleSlightRight}
+          className="dev-icon"
+        >
+          <Bell size={45} style={iconStyleSlightRight} />
+        </a>
+        <div className="div-icon"> </div>
+
+        <a href="/profile" style={iconStyleRight} className="dev-noicon">
+          <User size={45} style={iconStyleRight} />
+        </a>
       </div>
     </main>
   );
