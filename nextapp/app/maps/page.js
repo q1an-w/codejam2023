@@ -1,7 +1,12 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
 export default function Maps() {
+  const [user, setUser] = useState({
+    positionLatitude: 45.5,
+    positionLongitude: -73.5,
+  });
   const [load, setLoad] = useState([]);
 
   const fetchData = async () => {
@@ -9,6 +14,21 @@ export default function Maps() {
       const response = await fetch("/api/getLoads");
       const result = await response.json();
       setLoad(result);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+  const getCenterData = async () => {
+    try {
+      const userID = localStorage.getItem("userID");
+      const response = await fetch(`/api/getCenter?userID=${userID}`);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data. Status: ${response.status}`);
+      }
+      const result = await response.json();
+
+      console.log(result);
+      setUser(result);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -36,18 +56,19 @@ export default function Maps() {
 
     script.onload = () => {
       const map = new window.google.maps.Map(document.getElementById("map"), {
-        center: { lat: 45.5017, lng: -73.5673 }, // Montreal coordinates
+        center: { lat: user.positionLatitude, lng: user.positionLongitude }, // Montreal coordinates
         zoom: 8,
       });
 
       // Call function to add manual markers after map is loaded
       addMontrealMarkers(map);
     };
-  }, [load]);
+  }, [load, user]);
 
   useEffect(() => {
     // Fetch data when the component mounts
     fetchData();
+    getCenterData();
   }, []); // Empty dependency array ensures this effect runs once when the component mounts
 
   const Palette = {

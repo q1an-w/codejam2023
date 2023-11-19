@@ -11,7 +11,29 @@ import "../../main.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+async function postData(userId) {
+  try {
+    const response = await fetch("/your-api-endpoint", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ userID }),
+    });
 
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+
+    const result = await response.json();
+    console.log("Result from server:", result);
+
+    // Handle the result as needed
+  } catch (error) {
+    console.error("Error:", error);
+    // Handle errors
+  }
+}
 export const Login = () => {
   const router = useRouter();
   const handleSubmit = (e) => {
@@ -20,11 +42,28 @@ export const Login = () => {
 
     if (userID === "admin") {
       router.push("../truckList");
-    }
-    // else if (Tdata.some((truck) => truck.id.toLowerCase() === userID)) {
-    //   router.push('/truckList');
-    // }
-    else {
+      // } else if (Tdata.some((truck) => truck.id.toLowerCase() === userID)) {
+      //   router.push("/truckList");
+      // } else if (typeof Number(userID) === "number" && !isNaN(userID)) {
+      //   // postData(userID);
+      //   localStorage.setItem("userID", userID);
+      //   //console.log(userID);
+      //   router.push("/maps");
+      // } else {
+      //   console.log("User is not admin or a truck");
+      // }
+    } else if (typeof Number(userID) === "number" && !isNaN(userID)) {
+      // postData(userID);
+      localStorage.setItem("userID", userID);
+
+      // // Make a request to the server with the userID
+      // fetch(`/api/setUserID?userID=${userID}`, {
+      //   method: "POST", // You can use 'GET' or 'POST' depending on your server-side implementation
+      // });
+
+      //console.log(userID);
+      router.push("/maps");
+    } else {
       console.log("User is not admin or a truck");
     }
   };

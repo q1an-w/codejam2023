@@ -3,7 +3,10 @@ import "./main.css";
 import yellowlogo from "./imgs/logo yellow background.png";
 import Image from "next/image";
 
+import { connectToMQTTBroker } from "./filtering/filter";
+
 export default function Home() {
+  const client = connectToMQTTBroker();
   return (
     <main>
       <link
@@ -15,6 +18,7 @@ export default function Home() {
         <p className="welcome-text">to</p>
       </div>
       <Image src={yellowlogo} className="img" alt="image" />
+      <Link href="./pages/login">Begin</Link>
     </main>
   );
 }
