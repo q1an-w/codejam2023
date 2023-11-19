@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { useRouter } from 'next/navigation';
-import React from 'react';
-import { Bell, User, Home, Box } from 'react-feather';
-import './style.css';
+import { useRouter } from "next/navigation";
+import React from "react";
+import { Bell, User, Home, Box } from "react-feather";
+import "./style.css";
 
 export default function Homepage() {
   const router = useRouter();
@@ -12,16 +12,15 @@ export default function Homepage() {
     e.preventDefault();
     const userID = e.target.userID.value.trim().toLowerCase(); // Access the userID from the form
 
-    if (userID === 'admin') {
-      router.push('/truckList');
-    } 
-    else if (Number.isInteger(Number(userID))) {
-      router.push('/maps');
-    } 
+    if (userID === "admin") {
+      router.push("/truckList");
+    } else if (Number.isInteger(Number(userID))) {
+      router.push("/maps");
+    }
     // Add more conditions if needed
     else {
-      console.log("error")
-    }    
+      console.log("error");
+    }
   };
 
   const iconStyleLeft = {
@@ -29,31 +28,31 @@ export default function Homepage() {
     top: "750px",
     left: "25px",
     zIndex: "9999",
-    fontSize: `20px`
+    fontSize: `20px`,
   };
 
   const iconStyleSlightLeft = {
     position: "absolute",
     top: "750px",
-    left: "120px",
+    left: "115px",
     zIndex: "9999",
-    fontSize: `20px`
+    fontSize: `20px`,
   };
 
   const iconStyleRight = {
     position: "absolute",
     top: "750px",
-    right: "30px",
+    right: "25px",
     zIndex: "9999",
-    fontSize: `100px`
+    fontSize: `100px`,
   };
 
   const iconStyleSlightRight = {
     position: "absolute",
     top: "750px",
-    right: "125px",
+    right: "115px",
     zIndex: "9999",
-    fontSize: `100px`
+    fontSize: `100px`,
   };
 
   return (
@@ -75,17 +74,17 @@ export default function Homepage() {
           </div>
         </form>
         <a href="/home">
-            <Home size={40} style={iconStyleLeft} />
-          </a>
-          <a href="/boxes">
-            <Box size={40} style={iconStyleSlightLeft} />
-          </a>
-          <a href="/notifications">
-            <Bell size={40} style={iconStyleSlightRight} />
-          </a>
-          <a href="/profile">
-            <User size={40} style={iconStyleRight} />
-          </a>
+          <Home size={60} style={iconStyleLeft} />
+        </a>
+        <a href="/boxes">
+          <Box size={60} style={iconStyleSlightLeft} />
+        </a>
+        <a href="/notifications">
+          <Bell size={60} style={iconStyleSlightRight} />
+        </a>
+        <a href="/profile">
+          <User size={60} style={iconStyleRight} />
+        </a>
       </div>
     </main>
   );

@@ -1,12 +1,41 @@
 import React from "react";
 import "../../main.css";
 import whitelogo from "../../imgs/logo white background.png";
+import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
 // const Orders = () => {
 //   return <div>Orders</div>;
 // };
 
 // export default Orders;
+
+const iconStyleLeft = {
+  position: "absolute",
+  top: "5px",
+  left: "25px",
+  zIndex: "9999",
+};
+
+const iconStyleSlightLeft = {
+  position: "absolute",
+  top: "5px",
+  left: "115px",
+  zIndex: "9999",
+};
+
+const iconStyleRight = {
+  position: "absolute",
+  top: "5px",
+  right: "68px",
+  zIndex: "9999",
+};
+
+const iconStyleSlightRight = {
+  position: "absolute",
+  top: "5px",
+  right: "155px",
+  zIndex: "9999",
+};
 
 export default function OHistory() {
   return (
@@ -28,6 +57,18 @@ export default function OHistory() {
         </a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
+        <a href="/home">
+          <Home size={60} style={iconStyleLeft} />
+        </a>
+        <a href="/boxes">
+          <Box size={60} style={iconStyleSlightLeft} />
+        </a>
+        <a href="/notifications">
+          <Bell size={60} style={iconStyleSlightRight} />
+        </a>
+        <a href="/profile">
+          <User size={60} style={iconStyleRight} />
+        </a>
       </div>
     </main>
   );

@@ -56,32 +56,32 @@ export default function Maps() {
 
   const iconStyleLeft = {
     position: "absolute",
-    top: "650px",
-    left: "25px",
+    top: "658px",
+    left: "8px",
     zIndex: "9999",
     fontSize: `20px`
   };
 
   const iconStyleSlightLeft = {
     position: "absolute",
-    top: "650px",
-    left: "110px",
+    top: "658px",
+    left: "98px",
     zIndex: "9999",
     fontSize: `20px`
   };
 
   const iconStyleRight = {
     position: "absolute",
-    top: "650px",
-    right: "25px",
+    top: "658px",
+    right: "8px",
     zIndex: "9999",
     fontSize: `100px`
   };
 
   const iconStyleSlightRight = {
     position: "absolute",
-    top: "650px",
-    right: "110px",
+    top: "658px",
+    right: "98px",
     zIndex: "9999",
     fontSize: `100px`
   };
@@ -125,16 +125,16 @@ export default function Maps() {
             style={{ width: "80%", margin: "20px auto", display: "block" }}
           />
           <a href="/home">
-            <Home size={40} style={iconStyleLeft} />
+            <Home size={60} style={iconStyleLeft} />
           </a>
           <a href="/boxes">
-            <Box size={40} style={iconStyleSlightLeft} />
+            <Box size={60} style={iconStyleSlightLeft} />
           </a>
           <a href="/notifications">
-            <Bell size={40} style={iconStyleSlightRight} />
+            <Bell size={60} style={iconStyleSlightRight} />
           </a>
           <a href="/profile">
-            <User size={40} style={iconStyleRight} />
+            <User size={60} style={iconStyleRight} />
           </a>
         </div>
       </div>
