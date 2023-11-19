@@ -3,13 +3,13 @@
 import React from "react";
 
 const Home = () => {
-  const btnsubmit = (username) => {
-    //if (username is valid) then login
+  const btnsubmit = () => {
+    //hmm
   };
   return (
     <div>
       <button type="button" class="button" onClick={btnsubmit}>
-        ""
+        balls
       </button>
     </div>
   );
