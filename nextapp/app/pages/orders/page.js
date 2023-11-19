@@ -64,13 +64,13 @@ export default function OHistory() {
         <a href="/home">
           <Home size={60} style={iconStyleLeft} />
         </a>
-        <a href="/boxes">
+        <a href="/pages/orders">
           <Box size={60} style={iconStyleSlightLeft} />
         </a>
-        <a href="/notifications">
+        <a href="/pages/notifications">
           <Bell size={60} style={iconStyleSlightRight} />
         </a>
-        <a href="/profile">
+        <a href="/pages/profile">
           <User size={60} style={iconStyleRight} />
         </a>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Bell, User, Home, Box } from 'react-feather';
+import { Bell, User, Home, Box } from "react-feather";
 
 export default function Maps() {
   const [load, setLoad] = useState([]);
@@ -60,7 +60,7 @@ export default function Maps() {
     top: "658px",
     left: "8px",
     zIndex: "9999",
-    fontSize: `20px`
+    fontSize: `20px`,
   };
 
   const iconStyleSlightLeft = {
@@ -69,7 +69,7 @@ export default function Maps() {
     top: "658px",
     left: "98px",
     zIndex: "9999",
-    fontSize: `20px`
+    fontSize: `20px`,
   };
 
   const iconStyleRight = {
@@ -78,7 +78,7 @@ export default function Maps() {
     top: "658px",
     right: "8px",
     zIndex: "9999",
-    fontSize: `100px`
+    fontSize: `100px`,
   };
 
   const iconStyleSlightRight = {
@@ -87,7 +87,7 @@ export default function Maps() {
     top: "658px",
     right: "98px",
     zIndex: "9999",
-    fontSize: `100px`
+    fontSize: `100px`,
   };
 
   const Palette = {
@@ -111,7 +111,14 @@ export default function Maps() {
           Load Finder
         </h1>
 
-        <div style={{ height: "400px", width: "95%", margin: "auto", position: "relative" }}>
+        <div
+          style={{
+            height: "400px",
+            width: "95%",
+            margin: "auto",
+            position: "relative",
+          }}
+        >
           <div
             id="map"
             style={{
@@ -131,13 +138,13 @@ export default function Maps() {
           <a href="/home">
             <Home size={60} style={iconStyleLeft} />
           </a>
-          <a href="/boxes">
+          <a href="/pages/orders">
             <Box size={60} style={iconStyleSlightLeft} />
           </a>
-          <a href="/notifications">
+          <a href="/pages/notifications">
             <Bell size={60} style={iconStyleSlightRight} />
           </a>
-          <a href="/profile">
+          <a href="/pages/profile">
             <User size={60} style={iconStyleRight} />
           </a>
         </div>
