@@ -3,59 +3,104 @@ import "../../main.css";
 import whitelogo from "../../imgs/logo white background.png";
 import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
-// const Orders = () => {
-//   return <div>Orders</div>;
-// };
+import "../../secondbody.css";
 
-// export default Orders;
+import Notifications from "../notifications/page";
 
 const iconStyleLeft = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  left: "25px",
+  top: "5%",
+  left: "10%",
   zIndex: "9999",
 };
 
 const iconStyleSlightLeft = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  left: "115px",
+  top: "5%",
+  left: "31%",
   zIndex: "9999",
 };
 
 const iconStyleRight = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  right: "68px",
+  top: "5%",
+  right: "17%",
   zIndex: "9999",
 };
 
 const iconStyleSlightRight = {
-  color: "#333",
+  color: "#000000",
   position: "absolute",
-  top: "5px",
-  right: "155px",
+  top: "5%",
+  right: "55%",
+  left: "50%",
   zIndex: "9999",
 };
 
-export default function Notifications() {
+export default function OHistory() {
   return (
-    <main id="2p">
+    <main>
+      <link
+        href="https://fonts.googleapis.com/css?family=Odor Mean Chey"
+        rel="stylesheet"
+      />
+      <Image src={whitelogo} className="logoup" alt="image" />
+
+      <div className="orders-avail">
+        {" "}
+        <p className="second-text">Orders Available for You</p>{" "}
+      </div>
+      <br></br>
+
+      <div className="notification-txt">
+        <li className="notification-txt">Order #909 is available around you</li>
+        <hr className="line"></hr>
+        <li className="notification-txt">Order #904 is available around you</li>
+        <hr className="line"></hr>
+        <li className="notification-txt">Order #688 is available around you</li>
+        <hr className="line"></hr>
+        <li className="notification-txt">
+          Order #584 is available around you.
+        </li>
+      </div>
+
+      <div className="allorders">
+        {" "}
+        <p className="upper-text">All available orders</p>{" "}
+      </div>
+      <br></br>
+
+      <div className="notification-txt">
+        <li className="notification-txt">Order #908 available for pick up</li>
+        <hr className="line"></hr>
+        <li className="notification-txt">Order 907 available for pick up</li>
+        <hr className="line"></hr>
+        <li className="notification-txt">Order #906 is available around you</li>
+        <hr className="line"></hr>
+      </div>
+
       <div className="navbar">
-        <a href="/maps">
-          <Home size={60} style={iconStyleLeft} />
+        <a href="/home" style={iconStyleLeft} className="dev-noicon">
+          <Home size={45} style={iconStyleLeft} />
         </a>
-        <a href="/pages/orders">
-          <Box size={60} style={iconStyleSlightLeft} />
+        <a href="/boxes" style={iconStyleSlightLeft} className="dev-noicon">
+          <Box size={45} style={iconStyleSlightLeft} />
         </a>
-        <a href="/pages/notifications">
-          <Bell size={60} style={iconStyleSlightRight} />
+
+        <a
+          href="/notification"
+          style={iconStyleSlightRight}
+          className="dev-icon"
+        >
+          <Bell size={45} style={iconStyleSlightRight} />
         </a>
-        <a href="/pages/profile">
-          <User size={60} style={iconStyleRight} />
+        <div className="div-icon"> </div>
+
+        <a href="/profile" style={iconStyleRight} className="dev-noicon">
+          <User size={45} style={iconStyleRight} />
         </a>
       </div>
     </main>

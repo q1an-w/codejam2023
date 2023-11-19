@@ -1,24 +1,32 @@
 .img {
     /* Your initial image styles */
     display: inline-block;
-  }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
     }
+
     40% {
-      transform: translateY(-30px);
+        transform: translateY(-30px);
     }
+
     60% {
-      transform: translateY(-15px);
+        transform: translateY(-15px);
     }
-  }
-  
-  .bounce {
-    animation: bounce 2s; /* Adjust the duration as needed */
-  }
-  
+}
+
+.bounce {
+    animation: bounce 2s;
+    /* Adjust the duration as needed */
+}
+
 
 #1p {
     background: #FFD234;
@@ -151,4 +159,62 @@
 
 .div-icon {
     background: #FFD234;
+    left: 50%;
+    right: 55%;
+    width: 17%;
+    height: 70%;
+    margin-left: 50%;
+    border-radius: 5px;
+}
+
+.orders-avail {
+    border-radius: 25px;
+    background: #FFD234;
+    width: 90%;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.second-text {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    /* 88% */
+    letter-spacing: 1px;
+}
+
+.allorders {
+    border-radius: 25px;
+    background: #828282;
+    width: 90%;
+    height: 56px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notification-txt {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    font-size: 16px;
+    font-weight: lighter;
+
+    /* 137.5% */
+    letter-spacing: 1px;
+}
+
+.line {
+    width: 271px;
+    height: 1px;
 }

@@ -27,7 +27,7 @@ const iconStyleRight = {
   color: "#3F3F3F",
   position: "absolute",
   top: "5%",
-  right: "20%",
+  right: "17%",
   zIndex: "9999",
 };
 
@@ -35,7 +35,8 @@ const iconStyleSlightRight = {
   color: "#000000",
   position: "absolute",
   top: "5%",
-  right: "40%",
+  right: "55%",
+  left: "50%",
   zIndex: "9999",
 };
 
@@ -51,6 +52,8 @@ export default function OHistory() {
         {" "}
         <p className="upper-text"> Order History </p>{" "}
       </div>
+
+      <div className="historyorder">No orders</div>
       <div className="navbar">
         <a href="/home" style={iconStyleLeft} className="dev-noicon">
           <Home size={45} style={iconStyleLeft} />
@@ -59,9 +62,14 @@ export default function OHistory() {
           <Box size={45} style={iconStyleSlightLeft} />
         </a>
 
-        <a href="/home" style={iconStyleLeft} className="dev-noicon">
+        <a
+          href="/notification"
+          style={iconStyleSlightRight}
+          className="dev-icon"
+        >
           <Bell size={45} style={iconStyleSlightRight} />
         </a>
+        <div className="div-icon"> </div>
 
         <a href="/profile" style={iconStyleRight} className="dev-noicon">
           <User size={45} style={iconStyleRight} />

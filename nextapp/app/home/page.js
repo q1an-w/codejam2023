@@ -1,8 +1,8 @@
 "use client";
 
+
 import { useRouter } from "next/navigation";
 import React from "react";
-import { Bell, User, Home, Box } from "react-feather";
 import "./style.css";
 
 export default function Homepage() {
@@ -12,6 +12,7 @@ export default function Homepage() {
     e.preventDefault();
     const userID = e.target.userID.value.trim().toLowerCase(); // Access the userID from the form
 
+
     if (userID === "admin") {
       router.push("/truckList");
     } else if (Number.isInteger(Number(userID))) {
@@ -19,7 +20,7 @@ export default function Homepage() {
     }
     // Add more conditions if needed
     else {
-      console.log("error");
+      router.push('/maps');
     }
   };
 
