@@ -23,29 +23,40 @@ export default function Profile() {
         <Image src={pfp} className="pfp" alt="image" />
       </div>
 
+      <div class="div"></div>
+      <div class="profile-heading2">Personal information</div>
       <div class="profile-box">
-        <div className="profile-heading">Name</div>
+        <div class="profile-heading">Name</div>
         <div className="input-group" id="input-group-section">
           <input type="text" id="text-input" placeholder={name} required />
         </div>
+        <div class="profile-heading">Age</div>
         <div className="input-group" id="input-group-section">
           <input type="text" id="text-input" placeholder={age} required />
         </div>
+
+        <div class="profile-heading">Phone number</div>
         <div className="input-group" id="input-group-section">
           <input type="text" id="text-input" placeholder={phone} required />
         </div>
       </div>
 
-      <div className="input-group" id="input-group-section">
-        <input type="text" id="text-input" placeholder={license} required />
-      </div>
-      <div className="input-group" id="input-group-section">
-        <input
-          type="text"
-          id="text-input"
-          placeholder={maxload + " kg"}
-          required
-        />
+      <div class="div"></div>
+      <div class="profile-heading2">Truck information</div>
+      <div class="profile-box2">
+        <div class="profile-heading">License plate</div>
+        <div className="input-group" id="input-group-section">
+          <input type="text" id="text-input" placeholder={license} required />
+        </div>
+        <div class="profile-heading">Maximum load</div>
+        <div className="input-group" id="input-group-section">
+          <input
+            type="text"
+            id="text-input"
+            placeholder={maxload + " kg"}
+            required
+          />
+        </div>
       </div>
 
       <div className="navbar">

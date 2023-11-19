@@ -120,9 +120,10 @@
 
 .profile-div {
     background-color: #19342D;
-    width: 393px;
+    width: 440px;
 height: 197px;
 flex-shrink: 0;
+position: relative; left: -10px;
 
 
 }
