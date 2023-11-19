@@ -1,5 +1,8 @@
 import React from "react";
+import { connectToMQTTBroker } from "../filtering/filter";
 import {
+  Ndata,
+  sendData,
   Tdata,
   Ldata,
   distances,
@@ -8,6 +11,7 @@ import {
 } from "./getList.js";
 
 export default function OtherPage() {
+  const client = connectToMQTTBroker();
   const Palette = {
     width: "80%",
     margin: "auto",
@@ -15,7 +19,6 @@ export default function OtherPage() {
     padding: "20px",
     fontFamily: "Arial, sans-serif",
   };
-
   const tableStyle = {
     margin: "auto",
     width: "100%",
@@ -153,6 +156,35 @@ export default function OtherPage() {
         >
           Admin Dashboard
         </h1>
+        <div style={{ width: "100%" }}>
+          <div style={{ marginBottom: "30px", overflowX: "auto" }}>
+            <h2 style={{ fontSize: "30px", marginBottom: "10px" }}>
+              Notifications
+            </h2>
+            <table style={tableStyle}>
+              <thead>
+                <tr>
+                  <th style={thStyle}>Load ID</th>
+                  <th style={thStyle}>Truck ID</th>
+                  <th style={thStyle}>Profit</th>
+                  <th style={thStyle}>Mileage</th>
+                  <th style={thStyle}>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sendData().map((data, index) => (
+                  <tr key={`T${index}`}>
+                    <td style={tdStyle}>{data.loadId}</td>
+                    <td style={tdStyle}>{data.truckId}</td>
+                    <td style={tdStyle}>{data.profit}</td>
+                    <td style={tdStyle}>{data.mileage}</td>
+                    <td style={tdStyle}>{data.status}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
 
         <div style={{ width: "100%" }}>
           <div style={{ marginBottom: "30px", overflowX: "auto" }}>

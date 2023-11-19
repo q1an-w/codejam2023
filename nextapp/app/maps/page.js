@@ -1,8 +1,13 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { Bell, User, Home, Box, X, Check } from "react-feather";
 
 export default function Maps() {
+  const [user, setUser] = useState({
+    positionLatitude: 45.5,
+    positionLongitude: -73.5,
+  });
   const [load, setLoad] = useState([]);
   const [zoom, setZoom] = useState(6);
 
@@ -11,6 +16,21 @@ export default function Maps() {
       const response = await fetch("/api/getLoads");
       const result = await response.json();
       setLoad(result);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+  const getCenterData = async () => {
+    try {
+      const userID = localStorage.getItem("userID");
+      const response = await fetch(`/api/getCenter?userID=${userID}`);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data. Status: ${response.status}`);
+      }
+      const result = await response.json();
+
+      console.log(result);
+      setUser(result);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -38,103 +58,107 @@ export default function Maps() {
 
     script.onload = () => {
       const map = new window.google.maps.Map(document.getElementById("map"), {
-        center: { lat: 45.5017, lng: -73.5673 }, // Montreal coordinates
-        zoom: zoom,
+        center: { lat: user.positionLatitude, lng: user.positionLongitude }, // Montreal coordinates
+        zoom: 8,
+
         styles: [
           { elementType: "geometry", stylers: [{ color: "#485c6c" }] },
-          { elementType: "labels.text.stroke", stylers: [{ color: "#e3bfdd" }] },
+          {
+            elementType: "labels.text.stroke",
+            stylers: [{ color: "#e3bfdd" }],
+          },
           { elementType: "labels.text.fill", stylers: [{ color: "#8c437f" }] },
           {
             featureType: "landscape",
             elementType: "geometry",
             stylers: [{ color: "#9a8db8" }],
-          },          
-          { 
+          },
+          {
             featureType: "administrative.locality",
             elementType: "labels.text.fill",
             stylers: [{ color: "##e092d2" }],
           },
-          { 
+          {
             featureType: "poi",
             elementType: "labels.text.fill",
             stylers: [{ color: "##e092d2" }],
           },
-          { 
+          {
             featureType: "poi.park",
             elementType: "geometry",
             stylers: [{ color: "#40555a" }],
           },
-          { 
+          {
             featureType: "poi.park",
             elementType: "labels.text.fill",
             stylers: [{ color: "#e092d2" }],
           },
-          { 
+          {
             featureType: "road",
             elementType: "geometry",
             stylers: [{ color: "#576269" }],
           },
-          { 
+          {
             featureType: "road",
             elementType: "geometry.stroke",
             stylers: [{ color: "#3a4552" }],
           },
-          { 
+          {
             featureType: "road",
             elementType: "labels.text.fill",
             stylers: [{ color: "#e092d2" }],
           },
-          { 
+          {
             featureType: "road.highway",
             elementType: "geometry",
             stylers: [{ color: "#8c7b78" }],
           },
-          { 
+          {
             featureType: "road.highway",
             elementType: "geometry.stroke",
             stylers: [{ color: "#2e3848" }],
           },
-          { 
+          {
             featureType: "road.highway",
             elementType: "labels.text.fill",
             stylers: [{ color: "#e092d2" }],
           },
-          { 
+          {
             featureType: "transit",
             elementType: "geometry",
             stylers: [{ color: "#3f4b5a" }],
           },
-          { 
+          {
             featureType: "transit.station",
             elementType: "labels.text.fill",
             stylers: [{ color: "#e092d2" }],
           },
-          { 
+          {
             featureType: "water",
             elementType: "geometry",
             stylers: [{ color: "#253a4d" }],
           },
-          { 
+          {
             featureType: "water",
             elementType: "labels.text.fill",
             stylers: [{ color: "#e092d2" }],
           },
-          { 
+          {
             featureType: "water",
             elementType: "labels.text.stroke",
             stylers: [{ color: "#e092d2" }],
           },
         ],
-        
       });
 
       addMontrealMarkers(map);
     };
-  }, [load, zoom]);
+  }, [load, zoom, user]);
 
   useEffect(() => {
     fetchData();
-  }, []);
+    getCenterData();
+  }, []); // Empty dependency array ensures this effect runs once when the component mounts
 
   const handleZoomChange = (event) => {
     setZoom(parseInt(event.target.value, 10));
@@ -239,12 +263,12 @@ export default function Maps() {
             onChange={handleZoomChange}
             style={{ width: "80%", margin: "20px auto", display: "block" }}
           />
-          <a href="">
-            <X size={30} style={xStyle} />
-          </a>
-          <a href="">
+          {/* // <a href="">
+          //   <X size={30} style={xStyle} />
+          // </a> */}
+          {/* <a href="">
             <Check size={30} style={checkStyle} />
-          </a>
+          </a> */}
           <a href="/maps">
             <Home size={60} style={iconStyleLeft} />
           </a>

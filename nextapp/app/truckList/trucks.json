@@ -16,12 +16,12 @@
     "type": "Truck",
     "timestamp": "2023-11-17T09:10:23.2531001-05:00",
     "truckId": 346,
-    "positionLatitude": 39.195726,
+    "positionLatitude": 39.195736,
     "positionLongitude": -84.665296,
     "equipType": "Van",
     "nextTripLengthPreference": "Long"
   },
-    {
+  {
     "max": 800,
     "seq": 4,
     "type": "Truck",
@@ -65,4 +65,4 @@
     "equipType": "Flatbed",
     "nextTripLengthPreference": "Long"
   }
- ]
+]
