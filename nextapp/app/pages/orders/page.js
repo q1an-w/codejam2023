@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import "../../main.css";
 import "../../secondbody.css";
 import whitelogo from "../../imgs/logo white background.png";
 import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
+import Notifications from "../notifications/page";
 
 const iconStyleLeft = {
   color: "#3F3F3F",
@@ -52,18 +54,18 @@ export default function OHistory() {
 
       <div className="historyorder">No orders</div>
       <div className="navbar">
-        <a href="/home">
+        <a href="/home" style={iconStyleLeft} className="dev-noicon">
           <Home size={45} style={iconStyleLeft} />
         </a>
-        <a href="/boxes">
+        <a href="/boxes" style={iconStyleSlightLeft} className="dev-noicon">
           <Box size={45} style={iconStyleSlightLeft} />
         </a>
-        <div className="div-icon">
-          <a href="/notifications">
-            <Bell size={45} style={iconStyleSlightRight} />
-          </a>
-        </div>
-        <a href="/profile">
+
+        <a href="/home" style={iconStyleLeft} className="dev-noicon">
+          <Bell size={45} style={iconStyleSlightRight} />
+        </a>
+
+        <a href="/profile" style={iconStyleRight} className="dev-noicon">
           <User size={45} style={iconStyleRight} />
         </a>
       </div>
