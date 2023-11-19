@@ -1,9 +1,9 @@
 # codejam2023, team Washning Mashing
-**Carlsson-Coulombe, Philip;**
-**Liu, YuMeng;**
-**Tipa, Catalina;**
-**Wang, QianYi;**
-https://devpost.com/software/projecc-name
+**Carlsson-Coulombe, Philip;** </br>
+**Liu, YuMeng;** </br>
+**Tipa, Catalina;** </br>
+**Wang, QianYi;** </br>
+https://devpost.com/software/projecc-name </br>
 _DRIVE UP CAUSE WE NEVER BACK DOWN_
 ## Motivation
 Your parents' motor vehicle, your own car, or even your ideal car is always the first thing that comes to mind when you think about motorized vehicles. But the average user—and hence, the tech businesses as well—never really thinks of trucks.
