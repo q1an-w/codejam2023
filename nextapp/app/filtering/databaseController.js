@@ -35,6 +35,13 @@ const getItemById = (filePath, itemId) => {
   const data = readData(filePath);
   return data.find((item) => item.loadId === itemId || item.truckId === itemId);
 };
+const doesItemExist = (filePath, itemId) => {
+  if (itemId == null) {
+    return false;
+  }
+  const data = readData(filePath);
+  return data.some((item) => item.loadId == itemId || item.truckId == itemId);
+};
 
 // Add a new item
 const addItem = (filePath, newItem) => {
@@ -95,4 +102,5 @@ module.exports = {
   updateItem,
   deleteItem,
   clearDatabase,
+  doesItemExist,
 };
