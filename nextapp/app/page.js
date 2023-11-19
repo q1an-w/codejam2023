@@ -10,9 +10,9 @@ export default function Home() {
         href="https://fonts.googleapis.com/css?family=Odor Mean Chey"
         rel="stylesheet"
       />
-      <div class="welcome-div">
-        <p class="welcome-text">Welcome</p>
-        <p class="welcome-text">to</p>
+      <div className="welcome-div">
+        <p className="welcome-text">Welcome</p>
+        <p className="welcome-text">to</p>
       </div>
       <Image src={yellowlogo} className="img" alt="image" />
     </main>

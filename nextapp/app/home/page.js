@@ -1,12 +1,5 @@
-"use client";
-// const { readFileSync } = require("fs");
-// const dataTrucks = readFileSync("./app/truckList/trucks.json", "utf8");
-// const parsedDataT = JSON.parse(dataTrucks);
+"use client"
 
-// // Extracting truck IDs
-// const Tdata = parsedDataT.map((truck) => ({
-//   id: truck.truckId,
-// }));
 
 import { useRouter } from "next/navigation";
 import React from "react";
@@ -19,14 +12,13 @@ export default function Home() {
     e.preventDefault();
     const userID = e.target.userID.value.trim().toLowerCase(); // Access the userID from the form
 
-    if (userID === "admin") {
-      router.push("..é../truckList");
-    }
-    // else if (Tdata.some((truck) => truck.id.toLowerCase() === userID)) {
-    //   router.push('/truckList');
-    // }
+
+    if (userID === 'admin') {
+      router.push('/truckList');
+    } 
     else {
-      console.log("User is not admin or a truck");
+      router.push('/maps');
+
     }
   };
 
