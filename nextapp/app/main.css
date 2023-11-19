@@ -87,10 +87,20 @@
 /* Navbar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
     position: fixed;
+    margin: 0px;
     bottom: 0;
-    width: 100%;
+    color: 909090;
+    width: 110%;
+    float: left;
+    height: 12%;
+    overflow: hidden;
+    margin-left: 0;
+    list-style-type: none;
+    overflow: hidden;
+    left: 0;
+    width: 110%;
 }
 
 .navbar a {
@@ -106,4 +116,40 @@
 .main {
     padding: 16px;
     margin-bottom: 30px;
+}
+
+.profile-div {
+    background-color: #19342D;
+    width: 393px;
+height: 197px;
+flex-shrink: 0;
+
+
+}
+
+.profile-name{
+    padding-top: 55px;
+    padding-left: 157px;
+    color: white;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: OdorMeanChey;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 88% */
+    letter-spacing: 1px;
+}
+
+.pfp {
+    padding-left: 22px;
+    width: 138px;
+    height: 138px;
+    flex-shrink: 0;
+    position: relative; top: -47px;
+
+}
+
+.div-icon {
+    background: #FFD234;
 }
