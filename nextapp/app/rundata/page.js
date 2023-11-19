@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import "./run.css";
 const Palette = {
   width: "80%",
   margin: "auto",
@@ -9,7 +10,7 @@ const Palette = {
 };
 const tableStyle = {
   margin: "auto",
-  width: "60%",
+  width: "95%",
   borderCollapse: "collapse",
   marginTop: "20px",
   border: "2px solid #ddd",
@@ -94,7 +95,12 @@ export default function otherpage() {
 
   return (
     <>
-      <div style={{ display: "block", justifyContent: "center" }}>
+      <div
+        style={{
+          display: "block",
+          justifyContent: "center",
+        }}
+      >
         <div style={Palette}>
           <h1
             style={{
