@@ -5,16 +5,18 @@ import { Button } from "react";
 import yellowlogo from "../../imgs/logo yellow background.png";
 import whitelogo from "../../imgs/logo white background.png";
 import Image from "next/image";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import "./login.css";
 
 export const Login = () => {
+  const router = useRouter();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const userID = e.target.userID.value.trim().toLowerCase(); // Access the userID from the form
 
     if (userID === "admin") {
-      router.push("/truckList");
+      router.push("../truckList");
     }
     // else if (Tdata.some((truck) => truck.id.toLowerCase() === userID)) {
     //   router.push('/truckList');
