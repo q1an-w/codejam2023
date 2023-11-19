@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "./main.css";
+import "./firstbody.css";
 import yellowlogo from "./imgs/logo yellow background.png";
 import Image from "next/image";
 

@@ -1,16 +1,12 @@
 import React from "react";
 import "../../main.css";
+import "../../secondbody.css";
 import whitelogo from "../../imgs/logo white background.png";
 import Image from "next/image";
-// const Orders = () => {
-//   return <div>Orders</div>;
-// };
-
-// export default Orders;
 
 export default function OHistory() {
   return (
-    <main id="2p">
+    <main>
       <link
         href="https://fonts.googleapis.com/css?family=Odor Mean Chey"
         rel="stylesheet"
