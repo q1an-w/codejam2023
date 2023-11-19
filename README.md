@@ -1,8 +1,8 @@
 # codejam2023, team Washning Mashing
-### Carlsson-Coulombe, Philip;
-### Liu, YuMeng;
-### Tipa, Catalina;
-### Wang, QianYi;
+**Carlsson-Coulombe, Philip;**
+**Liu, YuMeng;**
+**Tipa, Catalina;**
+**Wang, QianYi;**
 https://devpost.com/software/projecc-name
 _DRIVE UP CAUSE WE NEVER BACK DOWN_
 ## Motivation
