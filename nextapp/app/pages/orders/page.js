@@ -1,49 +1,45 @@
 import React from "react";
 import "../../main.css";
+import "../../secondbody.css";
 import whitelogo from "../../imgs/logo white background.png";
 import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
-// const Orders = () => {
-//   return <div>Orders</div>;
-// };
-
-// export default Orders;
 
 const iconStyleLeft = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  left: "25px",
+  top: "5%",
+  left: "10%",
   zIndex: "9999",
 };
 
 const iconStyleSlightLeft = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  left: "115px",
+  top: "5%",
+  left: "31%",
   zIndex: "9999",
 };
 
 const iconStyleRight = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  right: "68px",
+  top: "5%",
+  right: "20%",
   zIndex: "9999",
 };
 
 const iconStyleSlightRight = {
-  color: "#333",
+  color: "#000000",
   position: "absolute",
-  top: "5px",
-  right: "155px",
+  top: "5%",
+  right: "40%",
   zIndex: "9999",
 };
 
 export default function OHistory() {
   return (
-    <main id="2p">
+    <main>
       <link
         href="https://fonts.googleapis.com/css?family=Odor Mean Chey"
         rel="stylesheet"

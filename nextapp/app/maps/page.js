@@ -239,10 +239,10 @@ export default function Maps() {
             onChange={handleZoomChange}
             style={{ width: "80%", margin: "20px auto", display: "block" }}
           />
-          <a>
+          <a href="">
             <X size={30} style={xStyle} />
           </a>
-          <a>
+          <a href="">
             <Check size={30} style={checkStyle} />
           </a>
           <a href="/maps">
