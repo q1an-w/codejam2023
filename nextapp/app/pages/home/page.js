@@ -1,7 +1,18 @@
+"use client";
+
 import React from "react";
 
 const Home = () => {
-  return <div>uwu</div>;
+  const btnsubmit = (username) => {
+    //if (username is valid) then login
+  };
+  return (
+    <div>
+      <button type="button" class="button" onClick={btnsubmit}>
+        ""
+      </button>
+    </div>
+  );
 };
 
 export default Home;

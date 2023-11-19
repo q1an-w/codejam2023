@@ -2,6 +2,77 @@ body {
   background: #FFD234;
 }
 
+#main-body {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Odor Mean Chey;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#input-group-section {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Odor Mean Chey;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#text-input {
+  margin-top: 9%;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Odor Mean Chey;
+  padding: 10px;
+  width: 200px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#submit-button {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Odor Mean Chey;
+  padding: 1px 20px;
+  border: none;
+  background-color: #22262A;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  
+  width: 140px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#submit-button:hover {
+  background-color: #333;
+}
+
 .login-div {
   margin-top: 50%;
   justify-content: center;
@@ -11,6 +82,12 @@ body {
   margin-top: 7%;
   justify-content: center;
 }
+
+.login-div3 {
+  margin-top: 16%;
+  justify-content: center;
+}
+
 
 .login-title {
   height: 80px;
@@ -36,7 +113,23 @@ justify-content: center;
 display: block;
 margin-left: auto;
 margin-right: auto;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+.login-text-box {width: 213px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  border-color:#22262A;
+  background: white;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Odor Mean Chey;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
 
 .login-submit {
   width: 140px;
@@ -48,6 +141,7 @@ margin-right: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .login-logo {
