@@ -6,34 +6,34 @@ import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
 
 const iconStyleLeft = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  left: "25px",
+  top: "5%",
+  left: "10%",
   zIndex: "9999",
 };
 
 const iconStyleSlightLeft = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  left: "115px",
+  top: "5%",
+  left: "31%",
   zIndex: "9999",
 };
 
 const iconStyleRight = {
-  color: "#333",
+  color: "#3F3F3F",
   position: "absolute",
-  top: "5px",
-  right: "68px",
+  top: "5%",
+  right: "20%",
   zIndex: "9999",
 };
 
 const iconStyleSlightRight = {
-  color: "#333",
+  color: "#000000",
   position: "absolute",
-  top: "5px",
-  right: "155px",
+  top: "5%",
+  right: "40%",
   zIndex: "9999",
 };
 
@@ -52,22 +52,19 @@ export default function OHistory() {
 
       <div className="historyorder">No orders</div>
       <div className="navbar">
-        <a href="#home" class="active">
-          Home
-        </a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
         <a href="/home">
-          <Home size={60} style={iconStyleLeft} />
+          <Home size={45} style={iconStyleLeft} />
         </a>
         <a href="/boxes">
-          <Box size={60} style={iconStyleSlightLeft} />
+          <Box size={45} style={iconStyleSlightLeft} />
         </a>
-        <a href="/notifications">
-          <Bell size={60} style={iconStyleSlightRight} />
-        </a>
+        <div className="div-icon">
+          <a href="/notifications">
+            <Bell size={45} style={iconStyleSlightRight} />
+          </a>
+        </div>
         <a href="/profile">
-          <User size={60} style={iconStyleRight} />
+          <User size={45} style={iconStyleRight} />
         </a>
       </div>
     </main>
