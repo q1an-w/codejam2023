@@ -1,17 +1,586 @@
 [
   {
+    "loadId": 10395,
+    "truckId": 171,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372298370
+  },
+  {
+    "loadId": 10395,
+    "truckId": 200,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372299108
+  },
+  {
+    "loadId": 10395,
+    "truckId": 199,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372300512
+  },
+  {
+    "loadId": 10395,
+    "truckId": 274,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372301946
+  },
+  {
+    "loadId": 10031,
+    "truckId": 333,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303591
+  },
+  {
+    "loadId": 10031,
+    "truckId": 411,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303592
+  },
+  {
+    "loadId": 10031,
+    "truckId": 106,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303597
+  },
+  {
+    "loadId": 10031,
+    "truckId": 216,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303604
+  },
+  {
+    "loadId": 10031,
+    "truckId": 136,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303607
+  },
+  {
+    "loadId": 10031,
+    "truckId": 163,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303609
+  },
+  {
+    "loadId": 10031,
+    "truckId": 377,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303611
+  },
+  {
+    "loadId": 10031,
+    "truckId": 102,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303613
+  },
+  {
+    "loadId": 10031,
+    "truckId": 380,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303671
+  },
+  {
+    "loadId": 10031,
+    "truckId": 140,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303769
+  },
+  {
+    "loadId": 10031,
+    "truckId": 321,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303781
+  },
+  {
+    "loadId": 10031,
+    "truckId": 396,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303786
+  },
+  {
+    "loadId": 10031,
+    "truckId": 362,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372303820
+  },
+  {
+    "loadId": 10031,
+    "truckId": 131,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372304530
+  },
+  {
+    "loadId": 10031,
+    "truckId": 403,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372304855
+  },
+  {
+    "loadId": 10395,
+    "truckId": 104,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372306591
+  },
+  {
+    "loadId": 10031,
+    "truckId": 392,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372307014
+  },
+  {
+    "loadId": 10395,
+    "truckId": 110,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372307638
+  },
+  {
+    "loadId": 10031,
+    "truckId": 126,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372312065
+  },
+  {
+    "loadId": 10395,
+    "truckId": 160,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372312992
+  },
+  {
+    "loadId": 10031,
+    "truckId": 320,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372313497
+  },
+  {
+    "loadId": 10395,
+    "truckId": 422,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372330139
+  },
+  {
+    "loadId": 40016,
+    "truckId": 285,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372331276
+  },
+  {
+    "loadId": 40016,
+    "truckId": 142,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372331291
+  },
+  {
+    "loadId": 40016,
+    "truckId": 188,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372331342
+  },
+  {
+    "loadId": 10210,
+    "truckId": 308,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372331842
+  },
+  {
+    "loadId": 10210,
+    "truckId": 253,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372331858
+  },
+  {
+    "loadId": 10210,
+    "truckId": 118,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372331873
+  },
+  {
+    "loadId": 10210,
+    "truckId": 398,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372331886
+  },
+  {
+    "loadId": 10210,
+    "truckId": 210,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372331897
+  },
+  {
+    "loadId": 10210,
+    "truckId": 186,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372331904
+  },
+  {
+    "loadId": 10210,
+    "truckId": 261,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372332158
+  },
+  {
+    "loadId": 40016,
+    "truckId": 426,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372332281
+  },
+  {
+    "loadId": 10210,
+    "truckId": 158,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372332318
+  },
+  {
+    "loadId": 10210,
+    "truckId": 383,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372333232
+  },
+  {
+    "loadId": 40016,
+    "truckId": 148,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372333305
+  },
+  {
+    "loadId": 10395,
+    "truckId": 176,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372333408
+  },
+  {
+    "loadId": 10031,
+    "truckId": 108,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372333413
+  },
+  {
+    "loadId": 10210,
+    "truckId": 286,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372333422
+  },
+  {
+    "loadId": 10395,
+    "truckId": 183,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372333526
+  },
+  {
+    "loadId": 10395,
+    "truckId": 357,
+    "profit": 1880.04,
+    "mileage": 1516,
+    "status": "pending",
+    "seq": 1700372335275
+  },
+  {
+    "loadId": 10210,
+    "truckId": 237,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372335629
+  },
+  {
+    "loadId": 10210,
+    "truckId": 198,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372337047
+  },
+  {
+    "loadId": 10031,
+    "truckId": 404,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372337466
+  },
+  {
+    "loadId": 10031,
+    "truckId": 334,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372337569
+  },
+  {
+    "loadId": 10031,
+    "truckId": 369,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372337842
+  },
+  {
+    "loadId": 10031,
+    "truckId": 340,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372337984
+  },
+  {
+    "loadId": 10031,
+    "truckId": 170,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372338085
+  },
+  {
+    "loadId": 10031,
+    "truckId": 182,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372338156
+  },
+  {
+    "loadId": 10031,
+    "truckId": 272,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372338294
+  },
+  {
+    "loadId": 10210,
+    "truckId": 191,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372338343
+  },
+  {
+    "loadId": 10031,
+    "truckId": 368,
+    "profit": 2233.04,
+    "mileage": 2136,
+    "status": "pending",
+    "seq": 1700372338387
+  },
+  {
+    "loadId": 10210,
+    "truckId": 116,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372338403
+  },
+  {
+    "loadId": 40016,
+    "truckId": 169,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372340110
+  },
+  {
+    "loadId": 10210,
+    "truckId": 323,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372340122
+  },
+  {
+    "loadId": 40016,
     "truckId": 101,
-    "loadId": 11036,
-    "state": "accepted"
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372340181
   },
   {
-    "truckId": 134,
-    "loadId": 10849,
-    "state": "refused"
+    "loadId": 40016,
+    "truckId": 276,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372341766
   },
   {
-    "truckId": 121,
-    "loadId": 10048,
-    "state": "pending"
+    "loadId": 10210,
+    "truckId": 119,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372341784
+  },
+  {
+    "loadId": 10210,
+    "truckId": 266,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372341801
+  },
+  {
+    "loadId": 40016,
+    "truckId": 390,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372341837
+  },
+  {
+    "loadId": 10210,
+    "truckId": 329,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372341961
+  },
+  {
+    "loadId": 10210,
+    "truckId": 428,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372343350
+  },
+  {
+    "loadId": 40016,
+    "truckId": 114,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372343365
+  },
+  {
+    "loadId": 10210,
+    "truckId": 413,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372343437
+  },
+  {
+    "loadId": 40016,
+    "truckId": 410,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372344906
+  },
+  {
+    "loadId": 10210,
+    "truckId": 264,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372346257
+  },
+  {
+    "loadId": 10210,
+    "truckId": 401,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372347637
+  },
+  {
+    "loadId": 40016,
+    "truckId": 239,
+    "profit": 3250.06,
+    "mileage": 1774,
+    "status": "pending",
+    "seq": 1700372347991
+  },
+  {
+    "loadId": 10210,
+    "truckId": 415,
+    "profit": 2778.63,
+    "mileage": 2327,
+    "status": "pending",
+    "seq": 1700372349136
   }
 ]
