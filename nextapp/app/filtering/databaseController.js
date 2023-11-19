@@ -1,5 +1,10 @@
 const fs = require("fs");
 
+const TRUCKS = "./data/trucks.json";
+const LOADS = "./data/loads.json";
+const NOTIFS = "./data/notifications.json";
+const SUGGES = "./data/suggestions.json";
+
 const initializeDatabase = (filePath) => {
   // Check if the file exists, if not, create an empty array
   if (!fs.existsSync(filePath)) {
@@ -83,6 +88,8 @@ const clearDatabase = (filePath) => {
 module.exports = {
   initializeDatabase,
   getAllItems,
+  writeData,
+  readData,
   getItemById,
   addItem,
   updateItem,

@@ -30,12 +30,16 @@ const Tdata = parsedDataT.map((truck) => ({
   longitude: truck.positionLongitude,
 }));
 
+Tdata.sort((a, b) => a.id - b.id);
+
 // Extracting longitude, latitude, and ID for loads
 const Ldata = parsedDataL.map((load) => ({
   id: load.loadId,
   latitude: load.originLatitude,
   longitude: load.originLongitude,
 }));
+
+Ldata.sort((a, b) => a.id - b.id);
 
 // Calculating distances between loads and trucks
 const distances = [];
