@@ -100,6 +100,7 @@
 
 
   .profile-box {
+    align-self: center;
     width: 320px;
 height: 220px;
 flex-shrink: 0;
@@ -113,6 +114,7 @@ background: #FFF;
     }
 
     .profile-box2 {
+        align-self: center;
         width: 320px;
     height: 150px;
     flex-shrink: 0;
