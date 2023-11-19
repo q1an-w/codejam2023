@@ -55,6 +55,7 @@ export default function Maps() {
   };
 
   const iconStyleLeft = {
+    color: "#333",
     position: "absolute",
     top: "658px",
     left: "8px",
@@ -63,6 +64,7 @@ export default function Maps() {
   };
 
   const iconStyleSlightLeft = {
+    color: "#333",
     position: "absolute",
     top: "658px",
     left: "98px",
@@ -71,6 +73,7 @@ export default function Maps() {
   };
 
   const iconStyleRight = {
+    color: "#333",
     position: "absolute",
     top: "658px",
     right: "8px",
@@ -79,6 +82,7 @@ export default function Maps() {
   };
 
   const iconStyleSlightRight = {
+    color: "#333",
     position: "absolute",
     top: "658px",
     right: "98px",

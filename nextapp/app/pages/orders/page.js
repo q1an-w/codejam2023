@@ -6,6 +6,7 @@ import { Bell, User, Home, Box } from "react-feather";
 import Image from "next/image";
 
 const iconStyleLeft = {
+  color: "#333",
   position: "absolute",
   top: "5px",
   left: "25px",
@@ -13,6 +14,7 @@ const iconStyleLeft = {
 };
 
 const iconStyleSlightLeft = {
+  color: "#333",
   position: "absolute",
   top: "5px",
   left: "115px",
@@ -20,6 +22,7 @@ const iconStyleSlightLeft = {
 };
 
 const iconStyleRight = {
+  color: "#333",
   position: "absolute",
   top: "5px",
   right: "68px",
@@ -27,6 +30,7 @@ const iconStyleRight = {
 };
 
 const iconStyleSlightRight = {
+  color: "#333",
   position: "absolute",
   top: "5px",
   right: "155px",

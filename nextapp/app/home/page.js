@@ -24,6 +24,7 @@ export default function Homepage() {
   };
 
   const iconStyleLeft = {
+    color: "#333",
     position: "absolute",
     top: "750px",
     left: "25px",
@@ -32,6 +33,7 @@ export default function Homepage() {
   };
 
   const iconStyleSlightLeft = {
+    color: "#333",
     position: "absolute",
     top: "750px",
     left: "115px",
@@ -40,6 +42,7 @@ export default function Homepage() {
   };
 
   const iconStyleRight = {
+    color: "#333",
     position: "absolute",
     top: "750px",
     right: "25px",
@@ -48,6 +51,7 @@ export default function Homepage() {
   };
 
   const iconStyleSlightRight = {
+    color: "#333",
     position: "absolute",
     top: "750px",
     right: "115px",
