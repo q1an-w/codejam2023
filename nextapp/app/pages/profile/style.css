@@ -1,0 +1,100 @@
+#main-body {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #main-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #main-heading {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+  .profile-heading {
+    padding-left:20%;
+    width: 91px;
+    height: 17px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+  
+  #input-group-section {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #text-input {
+    margin-top: 0%;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    padding: 5px;
+    width: 260px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  #submit-button {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Odor Mean Chey;
+    padding: 1px 20px;
+    border: none;
+    background-color: #22262A;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    
+    width: 140px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  }
+  
+  #submit-button:hover {
+    background-color: #333;
+  }
+
+
+  .profile-box {
+    width: 320px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
