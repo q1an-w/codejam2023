@@ -51,8 +51,6 @@ export default function OHistory() {
         {" "}
         <p className="upper-text"> Order History </p>{" "}
       </div>
-
-      <div className="historyorder">No orders</div>
       <div className="navbar">
         <a href="/home" style={iconStyleLeft} className="dev-noicon">
           <Home size={45} style={iconStyleLeft} />

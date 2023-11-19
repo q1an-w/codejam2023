@@ -23,73 +23,38 @@ export default function Homepage() {
     }
   };
 
-  const iconStyleLeft = {
-    color: "#333",
-    position: "absolute",
-    top: "750px",
-    left: "25px",
-    zIndex: "9999",
-    fontSize: `20px`,
-  };
-
-  const iconStyleSlightLeft = {
-    color: "#333",
-    position: "absolute",
-    top: "750px",
-    left: "115px",
-    zIndex: "9999",
-    fontSize: `20px`,
-  };
-
-  const iconStyleRight = {
-    color: "#333",
-    position: "absolute",
-    top: "750px",
-    right: "25px",
-    zIndex: "9999",
-    fontSize: `100px`,
-  };
-
-  const iconStyleSlightRight = {
-    color: "#333",
-    position: "absolute",
-    top: "750px",
-    right: "115px",
-    zIndex: "9999",
-    fontSize: `100px`,
-  };
 
   return (
-    <main id="main-body">
-      <div className="container" id="main-container">
-        <h1 id="main-heading">Welcome to DriverUp</h1>
-        <form onSubmit={handleSubmit}>
-          <div className="input-group" id="input-group-section">
-            <input
-              type="text"
-              id="text-input"
-              name="userID"
-              placeholder="Enter User ID"
-              required
-            />
-          </div>
-          <div className="input-group">
-            <input type="submit" id="submit-button" value="Submit" />
-          </div>
-        </form>
-        <a href="/home">
-          <Home size={60} style={iconStyleLeft} />
-        </a>
-        <a href="/boxes">
-          <Box size={60} style={iconStyleSlightLeft} />
-        </a>
-        <a href="/notifications">
-          <Bell size={60} style={iconStyleSlightRight} />
-        </a>
-        <a href="/profile">
-          <User size={60} style={iconStyleRight} />
-        </a>
-      </div>
+    <main id="main-body" style={{ position: "relative" }}>
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "40px",
+          position: "absolute",
+          top: "240px" /* Adjust this value to move the h1 up */,
+          width: "100%" /* Ensure h1 spans the full width */,
+        }}
+      >
+        Log In
+      </h1>
+      <form onSubmit={handleSubmit}>
+        <div className="input-group" id="input-group-section">
+          <input
+            type="text"
+            id="text-input"
+            name="userID"
+            placeholder="Enter User ID"
+            required
+          />
+        </div>
+        <div className="input-group" style={{ textAlign: "center" }}>
+          <input
+            type="submit"
+            id="submit-button"
+            value="Submit"
+          />
+        </div>
+      </form>
     </main>
   );
 }
