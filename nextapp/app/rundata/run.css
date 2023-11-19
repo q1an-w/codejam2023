@@ -8,3 +8,6 @@ h1{
     border-radius: 25px;
     width:90%;
 }
+body{
+    background-color: white !important;
+}

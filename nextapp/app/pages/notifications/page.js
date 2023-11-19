@@ -83,15 +83,19 @@ export default function OHistory() {
       </div>
 
       <div className="navbar">
-        <a href="/home" style={iconStyleLeft} className="dev-noicon">
+        <a href="/maps" style={iconStyleLeft} className="dev-noicon">
           <Home size={45} style={iconStyleLeft} />
         </a>
-        <a href="/boxes" style={iconStyleSlightLeft} className="dev-noicon">
+        <a
+          href="/pages/orders"
+          style={iconStyleSlightLeft}
+          className="dev-noicon"
+        >
           <Box size={45} style={iconStyleSlightLeft} />
         </a>
 
         <a
-          href="/notification"
+          href="/pages/notifications"
           style={iconStyleSlightRight}
           className="dev-icon"
         >
@@ -99,7 +103,7 @@ export default function OHistory() {
         </a>
         <div className="div-icon"> </div>
 
-        <a href="/profile" style={iconStyleRight} className="dev-noicon">
+        <a href="/pages/profile" style={iconStyleRight} className="dev-noicon">
           <User size={45} style={iconStyleRight} />
         </a>
       </div>

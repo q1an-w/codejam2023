@@ -55,23 +55,23 @@ export default function OHistory() {
 
       <div className="historyorder">No orders</div>
       <div className="navbar">
-        <a href="/home" style={iconStyleLeft} className="dev-noicon">
+        <a href="/maps" style={iconStyleLeft} className="dev-noicon">
           <Home size={45} style={iconStyleLeft} />
         </a>
-        <a href="/boxes" style={iconStyleSlightLeft} className="dev-noicon">
+        <a
+          href="/pages/orders"
+          style={iconStyleSlightLeft}
+          className="dev-noicon"
+        >
           <Box size={45} style={iconStyleSlightLeft} />
         </a>
 
-        <a
-          href="/notification"
-          style={iconStyleSlightRight}
-          className="dev-icon"
-        >
+        <a href="/pages/notifications" style={iconStyleSlightRight}>
           <Bell size={45} style={iconStyleSlightRight} />
         </a>
         <div className="div-icon"> </div>
 
-        <a href="/profile" style={iconStyleRight} className="dev-noicon">
+        <a href="/pages/profile" style={iconStyleRight} className="dev-noicon">
           <User size={45} style={iconStyleRight} />
         </a>
       </div>
