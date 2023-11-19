@@ -13,7 +13,7 @@ export default function Home() {
     setTimeout(() => {
       setClicked(true);
       setTimeout(() => {
-        window.location.href = "/home";
+        window.location.href = "/pages/login";
       }, 2000); // 750 milliseconds = 0.75 seconds
     }, 0); // Delay before simulating click, adjust as needed
   }, []);

@@ -1,8 +1,12 @@
 "use client";
 import { useRouter } from "next/navigation";
+import "../main.css";
+import "../firstbody.css";
+import yellowlogo from "../imgs/logo yellow background.png";
+// import "./map.css";
 import React, { useEffect, useState } from "react";
-import { Bell, User, Home, Box, X, Check } from "react-feather";
-
+import { Bell, User, Home, Box } from "react-feather";
+import Image from "next/image";
 export default function Maps() {
   const [user, setUser] = useState({
     positionLatitude: 45.5,
@@ -165,41 +169,37 @@ export default function Maps() {
   };
 
   const iconStyleLeft = {
-    color: "#333",
+    color: "#3F3F3F",
     position: "absolute",
-    top: "658px",
-    left: "8px",
+    top: "5%",
+    left: "10%",
     zIndex: "9999",
-    fontSize: `20px`,
   };
 
   const iconStyleSlightLeft = {
-    color: "#333",
+    color: "#3F3F3F",
     position: "absolute",
-    top: "658px",
-    left: "98px",
+    top: "5%",
+    left: "31%",
     zIndex: "9999",
-    fontSize: `20px`,
   };
 
   const iconStyleRight = {
-    color: "#333",
+    color: "#3F3F3F",
     position: "absolute",
-    top: "658px",
-    right: "8px",
+    top: "5%",
+    right: "17%",
     zIndex: "9999",
-    fontSize: `100px`,
   };
 
   const iconStyleSlightRight = {
-    color: "#333",
+    color: "#000000",
     position: "absolute",
-    top: "658px",
-    right: "98px",
+    top: "5%",
+    right: "55%",
+    left: "50%",
     zIndex: "9999",
-    fontSize: `100px`,
   };
-
   const xStyle = {
     color: "#333",
     position: "absolute",
@@ -227,17 +227,9 @@ export default function Maps() {
   };
 
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", background: "#FFD234" }}>
       <div style={Palette}>
-        <h1
-          style={{
-            textAlign: "center",
-            fontSize: "40px",
-            marginBottom: "20px",
-          }}
-        >
-          Load Finder
-        </h1>
+        <Image src={yellowlogo} className="logoup" alt="image" />
 
         <div
           style={{
@@ -250,7 +242,8 @@ export default function Maps() {
           <div
             id="map"
             style={{
-              height: "calc(100% - 50px)",
+              marginTop: "2vh",
+              height: "68vh",
               border: "4px solid black",
               position: "relative",
             }}
@@ -261,7 +254,7 @@ export default function Maps() {
             max="15"
             value={zoom}
             onChange={handleZoomChange}
-            style={{ width: "80%", margin: "20px auto", display: "block" }}
+            style={{ width: "80%", margin: "15px auto", display: "block" }}
           />
           {/* // <a href="">
           //   <X size={30} style={xStyle} />
@@ -269,18 +262,35 @@ export default function Maps() {
           {/* <a href="">
             <Check size={30} style={checkStyle} />
           </a> */}
-          <a href="/maps">
-            <Home size={60} style={iconStyleLeft} />
-          </a>
-          <a href="/pages/orders">
-            <Box size={60} style={iconStyleSlightLeft} />
-          </a>
-          <a href="/pages/notifications">
-            <Bell size={60} style={iconStyleSlightRight} />
-          </a>
-          <a href="/pages/profile">
-            <User size={60} style={iconStyleRight} />
-          </a>
+          <div className="navbar">
+            <a href="/maps" style={iconStyleLeft} className="dev-noicon">
+              <Home size={45} style={iconStyleLeft} />
+            </a>
+            <a
+              href="/pages/orders"
+              style={iconStyleSlightLeft}
+              className="dev-noicon"
+            >
+              <Box size={45} style={iconStyleSlightLeft} />
+            </a>
+
+            <a
+              href="/pages/notifications"
+              style={iconStyleSlightRight}
+              className="dev-icon"
+            >
+              <Bell size={45} style={iconStyleSlightRight} />
+            </a>
+            <div className="div-icon"> </div>
+
+            <a
+              href="/pages/profile"
+              style={iconStyleRight}
+              className="dev-noicon"
+            >
+              <User size={45} style={iconStyleRight} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

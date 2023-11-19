@@ -41,7 +41,7 @@ export const Login = () => {
     const userID = e.target.userID.value.trim().toLowerCase(); // Access the userID from the form
 
     if (userID === "admin") {
-      router.push("../truckList");
+      router.push("../rundata");
       // } else if (Tdata.some((truck) => truck.id.toLowerCase() === userID)) {
       //   router.push("/truckList");
       // } else if (typeof Number(userID) === "number" && !isNaN(userID)) {
